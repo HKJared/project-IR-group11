@@ -1,0 +1,100 @@
+:root {
+    --color-primary-white: #fff;
+    --color-primary-black: #010409;
+    --color-primary-blue: #4493f8;
+    --color-secondary-white: #f2f2f2;
+    --color-secondary-black: #0d1117;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--color-secondary-black);
+}
+
+.blur {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.full-height {
+    display: flex;
+    height: 100%;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;    
+}
+
+.section {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+.limit-view {
+    width: 1200px !important;
+    max-width: 1200px !important;
+}
+
+.hr {
+    border-left: 1px solid #b7b7b7;
+}
+
+.gap-1 {
+    gap: 1px;
+}
+
+.gap-2 {
+    gap: 2px;
+}
+
+.gap-4 {
+    gap: 4px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}

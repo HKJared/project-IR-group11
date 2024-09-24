@@ -1,6 +1,5 @@
-const pool = require('../../configs/connectDB');
+const pool = require('../configs/connectDB');
 const diacritics = require('diacritics');
-const hashPassword = require('../../utils/hashPassword');
 const generateUniqueName = require('../../utils/generateUniqueName');
 
 class UserModel {

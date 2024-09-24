@@ -1,4 +1,4 @@
-const pool = require('../../configs/connectDB');
+const pool = require('../configs/connectDB');
 
 class RoleModel {
     // Lấy tất cả các vai trò

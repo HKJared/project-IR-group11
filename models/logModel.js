@@ -1,4 +1,4 @@
-const pool = require('../../configs/connectDB');
+const pool = require('../configs/connectDB');
 const diacritics = require('diacritics')
 const logPerTimeGet = 50;
 
