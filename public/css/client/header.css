@@ -41,3 +41,7 @@ header .logo {
     font-size: 16px;
     color: var(--color-primary-white);
 }
+
+header .user__container {
+    width: 150px;
+}

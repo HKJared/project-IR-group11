@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         keyword = $('#search_text').val().trim();
 
-        page = 1
+        page = 1;
         
         search();
     });
@@ -36,17 +36,26 @@ function showExams(exams) {
             </div>
         `);
     });
-
-    
 }
+
+function createPaginationContainer(total_page) {
+    $('.pagination__actions').empty();
+    console.log($('.pagination__actions'))
+    for (let i = 1; i < total_page + 1; i++) {
+        $('.pagination__actions').append(`<button id="page_${ i }" class="pagination_item center">${ i }</button>`)
+    }
+
+    $(`#page_${ page }`).addClass('active');
+}
+
 
 async function search() {
     const response = await getExams();
     
     showExams(response.exams);
 
-    if (page > 1) {
-
+    if (page == 1) {
+        createPaginationContainer(response.total);
     } 
 }
 

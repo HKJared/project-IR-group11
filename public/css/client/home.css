@@ -23,3 +23,30 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.pagination__container {
+    padding: 36px 0;
+}
+
+.pagination__container .pagination__actions {
+    max-width: 960px;
+    padding: 0 12px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pagination__container .pagination_item {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    color: var(--color-grey-500);
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-500);
+}
+
+.pagination__container .pagination_item.active, .pagination__container .pagination_item:hover {
+    background-color: var(--color-grey-500);
+    color: var(--color-secondary-black);
+}
