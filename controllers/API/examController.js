@@ -51,10 +51,14 @@ class examController {
                 id: hit._id,
                 ...hit._source,
             }));
+
+            // Tính toán tổng số trang
+            const totalItems = response.hits.total.value; // Tổng số mục
+            const totalPages = Math.ceil(totalItems / itemsPerPage); // Tổng số trang
     
             // Trả về kết quả cùng với thông tin phân trang
             res.status(200).json({
-                total: response.hits.total.value,
+                total_page: totalPages,
                 page: pageNumber,
                 items_per_page: itemsPerPage,
                 exams,
