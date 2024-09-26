@@ -1,6 +1,9 @@
 header {
     height: 76px;
     background-color: var(--color-primary-black);
+    position: sticky;
+    border-bottom: 1px solid var(--color-grey-500);
+    top: 0;
 }
 
 header .logo {

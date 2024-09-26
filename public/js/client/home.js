@@ -1,4 +1,4 @@
-var items_per_page = 10;
+var items_per_page = 20;
 var keyword = '';
 var page = 1;
 
@@ -18,8 +18,6 @@ $(document).ready(function() {
 });
 
 function showExams(exams) {
-    console.log(exams)
-
     $('.search_response__container').empty();
 
     if(!exams.length) {
@@ -45,7 +43,11 @@ function showExams(exams) {
 async function search() {
     const response = await getExams();
     
-    showExams(response.exams)
+    showExams(response.exams);
+
+    if (page > 1) {
+
+    } 
 }
 
 // hàm gọi api
