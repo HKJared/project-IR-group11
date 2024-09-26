@@ -3,7 +3,8 @@ const { Client } = require('@elastic/elasticsearch');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const cors = require('cors');
-const { initializeElastic, esClient } = require('./utils/setupElasticsearch');
+// const { initializeElastic, esClient } = require('./utils/setupElasticsearch');
+const { initializeElastic, esClient } = require('./utils/setupElasticsearchEL');
 
 const configViewEngine = require('./configs/viewEngine');
 

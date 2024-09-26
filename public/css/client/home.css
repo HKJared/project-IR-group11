@@ -1,0 +1,25 @@
+.search_response__container {
+    width: 960px;
+    color: var(--color-primary-white);
+    padding: 24px 12px;
+}
+
+.search_response__container .title {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-primary-blue);
+}
+
+.search_response__container .title:hover {
+    text-decoration: underline;
+}
+
+.search_response__container .description {
+    font-size: 14px;
+    line-height: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -18,13 +18,34 @@ $(document).ready(function() {
 });
 
 function showExams(exams) {
+    console.log(exams)
+
+    $('.search_response__container').empty();
+
+    if(!exams.length) {
+        return
+    }
+
+    exams.forEach(exam => {
+        $('.search_response__container').append(`
+            <div class="exam_item col gap-8">
+                <a href="${ exam.html_url }" class="title">
+                    <span>${ exam.title }</span>
+                </a>
+                <div class="description">
+                    <span>${ exam.description }</span>
+                </div>
+            </div>
+        `);
+    });
+
     
 }
 
 async function search() {
-    const exams = await getExams();
+    const response = await getExams();
     
-    showExams(exams)
+    showExams(response.exams)
 }
 
 // hàm gọi api
