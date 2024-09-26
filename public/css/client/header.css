@@ -2,8 +2,9 @@ header {
     height: 76px;
     background-color: var(--color-primary-black);
     position: sticky;
-    border-bottom: 1px solid var(--color-grey-500);
+    border-bottom: 1px solid var(--color-grey-600);
     top: 0;
+    box-shadow: 0 0 23px rgba(255, 255, 255, .12);
 }
 
 header .logo {

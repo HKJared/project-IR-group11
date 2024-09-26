@@ -2,6 +2,7 @@
     width: 960px;
     color: var(--color-primary-white);
     padding: 24px 12px;
+    min-height: 400px;
 }
 
 .search_response__container .title {
@@ -22,6 +23,7 @@
     -webkit-line-clamp: 2; 
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #bdc1c6;
 }
 
 .pagination__container {

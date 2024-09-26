@@ -37,3 +37,7 @@ const scrapeExercises = async (url) => {
 // Sử dụng hàm scrape
 const url = 'https://zendvn.com/bai-tap-lap-trinh-chuyen-mang-thanh-chuoi-tang-dan-71'; // Thay đổi thành URL thực tế
 scrapeExercises(url);
+
+const urls = [
+    
+]
