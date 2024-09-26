@@ -1,0 +1,3068 @@
+[
+  {
+    "name": "nlp-competitions-list-review",
+    "html_url": "https://github.com/zhpmatrix/nlp-competitions-list-review",
+    "description": "复盘所有NLP比赛的TOP方案，只关注NLP比赛，持续更新中！",
+    "language": null
+  },
+  {
+    "name": "kaggle-solutions",
+    "html_url": "https://github.com/faridrashidi/kaggle-solutions",
+    "description": "🏅 Collection of Kaggle Solutions and Ideas 🏅",
+    "language": "HTML"
+  },
+  {
+    "name": "solutions",
+    "html_url": "https://github.com/dataquestio/solutions",
+    "description": "Solutions for projects.",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "Projects-Solutions",
+    "html_url": "https://github.com/karan/Projects-Solutions",
+    "description": ":pager: Links to others' solutions to Projects (https://github.com/karan/Projects/)",
+    "language": null
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/haoel/leetcode",
+    "description": "LeetCode Problems' Solutions ",
+    "language": "C++"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "description": "🏋️ Python / Modern C++ Solutions of All 3298 LeetCode Problems (Weekly Update)",
+    "language": "C++"
+  },
+  {
+    "name": "CSAPP-3e-Solutions",
+    "html_url": "https://github.com/DreamAndDead/CSAPP-3e-Solutions",
+    "description": "CSAPP 3e Solutions, migrated to github.io from gitbook.io which is being shut down.",
+    "language": "C"
+  },
+  {
+    "name": "HackerRank_solutions",
+    "html_url": "https://github.com/RodneyShag/HackerRank_solutions",
+    "description": "317 efficient solutions to HackerRank problems",
+    "language": "Java"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/neetcode-gh/leetcode",
+    "description": "Leetcode solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Hackerrank-Solutions",
+    "html_url": "https://github.com/Java-aid/Hackerrank-Solutions",
+    "description": "hackerrank solutions github | hackerrank all solutions | hackerrank solutions for java | hackerrank video tutorial | hackerrank cracking the coding interview solutions | hackerrank data structures  | hackerrank solutions algorithms  | hackerrank challenge | hackerrank coding challenge | hackerrank algorithms solutions github| hackerrank problem solving | hackerrank programs solutions | JAVAAID |all hackerrank solutions | Coding Interview Preparation ",
+    "language": "Java"
+  },
+  {
+    "name": "Ventoy",
+    "html_url": "https://github.com/ventoy/Ventoy",
+    "description": "A new bootable USB solution.",
+    "language": "C"
+  },
+  {
+    "name": "numpy-100",
+    "html_url": "https://github.com/rougier/numpy-100",
+    "description": "100 numpy exercises (with solutions)",
+    "language": "Python"
+  },
+  {
+    "name": "solution-architecture-patterns",
+    "html_url": "https://github.com/chanakaudaya/solution-architecture-patterns",
+    "description": "Reusable, vendor-neutral, industry-specific, vendor-specific solution architecture patterns for enterprise ",
+    "language": null
+  },
+  {
+    "name": "Data-Competition-TopSolution",
+    "html_url": "https://github.com/Smilexuhc/Data-Competition-TopSolution",
+    "description": "Data competition Top Solution 数据竞赛top解决方案开源整理",
+    "language": null
+  },
+  {
+    "name": "esp-iot-solution",
+    "html_url": "https://github.com/espressif/esp-iot-solution",
+    "description": "Espressif IoT Library. IoT Device Drivers, Documentations And Solutions.",
+    "language": "C"
+  },
+  {
+    "name": "lc-all-solutions",
+    "html_url": "https://github.com/csujedihy/lc-all-solutions",
+    "description": "My own leetcode solutions by python",
+    "language": "Python"
+  },
+  {
+    "name": "SharedSolutions",
+    "html_url": "https://github.com/CodingChallengesFYI/SharedSolutions",
+    "description": "Publicly shared solutions to Coding Challenges",
+    "language": null
+  },
+  {
+    "name": "Project-Euler-solutions",
+    "html_url": "https://github.com/nayuki/Project-Euler-solutions",
+    "description": "Runnable code for solving Project Euler problems in Java, Python, Mathematica, Haskell.",
+    "language": "Java"
+  },
+  {
+    "name": "AZ-204-DevelopingSolutionsforMicrosoftAzure",
+    "html_url": "https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure",
+    "description": "AZ-204: Developing solutions for Microsoft Azure",
+    "language": "C#"
+  },
+  {
+    "name": "botframework-solutions",
+    "html_url": "https://github.com/microsoft/botframework-solutions",
+    "description": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "sql-server-maintenance-solution",
+    "html_url": "https://github.com/olahallengren/sql-server-maintenance-solution",
+    "description": "SQL Server Maintenance Solution",
+    "language": "TSQL"
+  },
+  {
+    "name": "spring-cloud-alibaba",
+    "html_url": "https://github.com/alibaba/spring-cloud-alibaba",
+    "description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.",
+    "language": "Java"
+  },
+  {
+    "name": "hmily",
+    "html_url": "https://github.com/dromara/hmily",
+    "description": "Distributed transaction solutions",
+    "language": "Java"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/gouthampradhan/leetcode",
+    "description": "Leetcode solutions",
+    "language": "Java"
+  },
+  {
+    "name": "devise",
+    "html_url": "https://github.com/heartcombo/devise",
+    "description": "Flexible authentication solution for Rails with Warden.",
+    "language": "Ruby"
+  },
+  {
+    "name": "kaggle-past-solutions",
+    "html_url": "https://github.com/EliotAndres/kaggle-past-solutions",
+    "description": "A searchable compilation of Kaggle past solutions",
+    "language": "HTML"
+  },
+  {
+    "name": "fish-speech",
+    "html_url": "https://github.com/fishaudio/fish-speech",
+    "description": "Brand new TTS solution",
+    "language": "Python"
+  },
+  {
+    "name": "Course-Certified-Solutions-Architect-Associate",
+    "html_url": "https://github.com/ACloudGuru-Resources/Course-Certified-Solutions-Architect-Associate",
+    "description": "AWS Certified Solutions Architect - Associate",
+    "language": "HTML"
+  },
+  {
+    "name": "ctci-solutions",
+    "html_url": "https://github.com/w-hat/ctci-solutions",
+    "description": "Python solutions to Cracking the Coding Interview (6th edition)",
+    "language": "Python"
+  },
+  {
+    "name": "geocoder",
+    "html_url": "https://github.com/alexreisner/geocoder",
+    "description": "Complete Ruby geocoding solution.",
+    "language": "Ruby"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/codedecks-in/LeetCode-Solutions",
+    "description": "This repository consists of solutions to the problem from LeetCode platform. Subscribe to our Channel for more updates",
+    "language": "C++"
+  },
+  {
+    "name": "vue-uploader-solutions",
+    "html_url": "https://github.com/shady-xia/vue-uploader-solutions",
+    "description": "Vue上传解决方案",
+    "language": "Vue"
+  },
+  {
+    "name": "CtCI-6th-Edition",
+    "html_url": "https://github.com/careercup/CtCI-6th-Edition",
+    "description": "Cracking the Coding Interview 6th Ed. Solutions",
+    "language": "Java"
+  },
+  {
+    "name": "solution-architecture",
+    "html_url": "https://github.com/unlight/solution-architecture",
+    "description": "Solution Architecture links, articles, books, video lessons, etc.",
+    "language": null
+  },
+  {
+    "name": "sp-dev-solutions",
+    "html_url": "https://github.com/pnp/sp-dev-solutions",
+    "description": "Repository for SharePoint development reusable solutions",
+    "language": "TypeScript"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/SHY-Corp/LeetCode-Solutions",
+    "description": "A compilation of all the Leetcode solutions.",
+    "language": "C++"
+  },
+  {
+    "name": "aws-solutions-architect-associate-notes",
+    "html_url": "https://github.com/skulltech/aws-solutions-architect-associate-notes",
+    "description": "My notes for AWS Solutions Architect Associate.",
+    "language": null
+  },
+  {
+    "name": "Online-Judge-Solutions",
+    "html_url": "https://github.com/marioyc/Online-Judge-Solutions",
+    "description": "Solutions to ACM ICPC - style problems",
+    "language": "C++"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/qiyuangong/leetcode",
+    "description": "Python & JAVA Solutions for Leetcode",
+    "language": "Python"
+  },
+  {
+    "name": "aws-solutions-constructs",
+    "html_url": "https://github.com/awslabs/aws-solutions-constructs",
+    "description": "The AWS Solutions Constructs Library is an open-source extension of the AWS Cloud Development Kit (AWS CDK) that provides multi-service, well-architected patterns for quickly defining solutions",
+    "language": "TypeScript"
+  },
+  {
+    "name": "kaggle-web-traffic",
+    "html_url": "https://github.com/Arturus/kaggle-web-traffic",
+    "description": "1st place solution",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "HackerRank-Solutions",
+    "html_url": "https://github.com/BlakeBrown/HackerRank-Solutions",
+    "description": "HackerRank concepts & solutions",
+    "language": "C++"
+  },
+  {
+    "name": "Lidar_AI_Solution",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/Lidar_AI_Solution",
+    "description": "A project demonstrating Lidar related AI solutions, including three GPU accelerated Lidar/camera DL networks (PointPillars, CenterPoint, BEVFusion) and the related libs (cuPCL, 3D SparseConvolution, YUV2RGB, cuOSD,).",
+    "language": "Python"
+  },
+  {
+    "name": "awesome-algorithm-question-solution",
+    "html_url": "https://github.com/knightsj/awesome-algorithm-question-solution",
+    "description": "LeetCode，《剑指offer》中的算法题的题目和解法以及常见算法的实现",
+    "language": "C++"
+  },
+  {
+    "name": "Kaggle-Solution",
+    "html_url": "https://github.com/wepe/Kaggle-Solution",
+    "description": "Solution Code for Kaggle Competition",
+    "language": "Python"
+  },
+  {
+    "name": "leetcode-solutions",
+    "html_url": "https://github.com/RealHacker/leetcode-solutions",
+    "description": "My solutions for all (~350) leetcode problems, including premium.",
+    "language": "Python"
+  },
+  {
+    "name": "CleanArchitecture",
+    "html_url": "https://github.com/jasontaylordev/CleanArchitecture",
+    "description": "Clean Architecture Solution Template for ASP.NET Core",
+    "language": "C#"
+  },
+  {
+    "name": "c-solutions",
+    "html_url": "https://github.com/williamgherman/c-solutions",
+    "description": "My Solutions to K. N. King's \"C Programming: A Modern Approach\", second edition",
+    "language": "C"
+  },
+  {
+    "name": "LeetCode-Java-Solutions",
+    "html_url": "https://github.com/varunu28/LeetCode-Java-Solutions",
+    "description": "Daily grind 🏃",
+    "language": "Java"
+  },
+  {
+    "name": "Exercises-Solutions",
+    "html_url": "https://github.com/HandsOnOpenCL/Exercises-Solutions",
+    "description": "C, C++ and Python Code for Exercises and Solutions",
+    "language": "C++"
+  },
+  {
+    "name": "webuploader",
+    "html_url": "https://github.com/fex-team/webuploader",
+    "description": "It's a new file uploader solution! ",
+    "language": "JavaScript"
+  },
+  {
+    "name": "GB28181.Solution",
+    "html_url": "https://github.com/GB28181/GB28181.Solution",
+    "description": "Linux/Win/Docker/kubernetes/Chart/Kustomize/GB28181/SIP/RTP/SDP/WebRTC/作为上下级域/平台级联互联",
+    "language": "C#"
+  },
+  {
+    "name": "LeetCode-Swift",
+    "html_url": "https://github.com/soapyigu/LeetCode-Swift",
+    "description": "Solutions to LeetCode by Swift",
+    "language": "Swift"
+  },
+  {
+    "name": "Solution",
+    "html_url": "https://github.com/anurnomeru/Solution",
+    "description": "自己的一些瞎写的leetcode题，数据结构，算法等等",
+    "language": "Java"
+  },
+  {
+    "name": "rendertron",
+    "html_url": "https://github.com/GoogleChrome/rendertron",
+    "description": "A Headless Chrome rendering solution",
+    "language": "TypeScript"
+  },
+  {
+    "name": "gitblit",
+    "html_url": "https://github.com/gitblit-org/gitblit",
+    "description": "pure java git solution",
+    "language": "Java"
+  },
+  {
+    "name": "hrm-solutions",
+    "html_url": "https://github.com/atesgoral/hrm-solutions",
+    "description": "Human Resource Machine solutions and size/speed hacks ",
+    "language": "Assembly"
+  },
+  {
+    "name": "cocos-awesome-tech-solutions",
+    "html_url": "https://github.com/cocos/cocos-awesome-tech-solutions",
+    "description": "Cocos' Awesome Technical Solutions",
+    "language": "TypeScript"
+  },
+  {
+    "name": "react-native-navigation",
+    "html_url": "https://github.com/wix/react-native-navigation",
+    "description": "A complete native navigation solution for React Native",
+    "language": "MDX"
+  },
+  {
+    "name": "hackerrank-solutions",
+    "html_url": "https://github.com/kilian-hu/hackerrank-solutions",
+    "description": "A collection of solutions to competitive programming exercises on HackerRank.",
+    "language": "Python"
+  },
+  {
+    "name": "dialogplus",
+    "html_url": "https://github.com/orhanobut/dialogplus",
+    "description": "Advanced dialog solution for android",
+    "language": "Java"
+  },
+  {
+    "name": "ctci-python-solutions",
+    "html_url": "https://github.com/arpankg/ctci-python-solutions",
+    "description": "Cracking the Coding Interview in Python 3. The solutions all have detailed explanations with visuals.",
+    "language": null
+  },
+  {
+    "name": "CSES-Solutions",
+    "html_url": "https://github.com/Jonathan-Uy/CSES-Solutions",
+    "description": "Accepted Solutions to the CSES Competitive Programming Problem Set",
+    "language": "C++"
+  },
+  {
+    "name": "mediapipe",
+    "html_url": "https://github.com/google-ai-edge/mediapipe",
+    "description": "Cross-platform, customizable ML solutions for live and streaming media.",
+    "language": "C++"
+  },
+  {
+    "name": "KernelSU",
+    "html_url": "https://github.com/tiann/KernelSU",
+    "description": "A Kernel based root solution for Android",
+    "language": "Kotlin"
+  },
+  {
+    "name": "CIPP",
+    "html_url": "https://github.com/KelvinTegelaar/CIPP",
+    "description": "CIPP is a M365 multitenant management solution",
+    "language": "JavaScript"
+  },
+  {
+    "name": "SolutionQCQINielsenChuang",
+    "html_url": "https://github.com/goropikari/SolutionQCQINielsenChuang",
+    "description": "Solution for Quantum Computation and Quantum Information by Nielsen and Chuang",
+    "language": "TeX"
+  },
+  {
+    "name": "synopsys-detect",
+    "html_url": "https://github.com/blackducksoftware/synopsys-detect",
+    "description": "Scanning and analysis for Synopsys products.",
+    "language": "Java"
+  },
+  {
+    "name": "statistical-learning-method-solutions-manual",
+    "html_url": "https://github.com/datawhalechina/statistical-learning-method-solutions-manual",
+    "description": "统计学习方法习题解答，在线阅读地址：https://datawhalechina.github.io/statistical-learning-method-solutions-manual",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "immich",
+    "html_url": "https://github.com/immich-app/immich",
+    "description": "High performance self-hosted photo and video management solution.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "crater",
+    "html_url": "https://github.com/crater-invoice/crater",
+    "description": "Open Source Invoicing Solution for Individuals & Businesses",
+    "language": "PHP"
+  },
+  {
+    "name": "AZ400-DesigningandImplementingMicrosoftDevOpsSolutions",
+    "html_url": "https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions",
+    "description": "AZ-400 Course Repository for Labs and Demos.",
+    "language": null
+  },
+  {
+    "name": "CSES-Solutions",
+    "html_url": "https://github.com/mrsac7/CSES-Solutions",
+    "description": "Accepted solutions of CSES problemset",
+    "language": "C++"
+  },
+  {
+    "name": "authlogic",
+    "html_url": "https://github.com/binarylogic/authlogic",
+    "description": "A simple ruby authentication solution.",
+    "language": "Ruby"
+  },
+  {
+    "name": "azerothcore-wotlk",
+    "html_url": "https://github.com/azerothcore/azerothcore-wotlk",
+    "description": "Complete Open Source and Modular solution for MMO",
+    "language": "C++"
+  },
+  {
+    "name": "LeetCode-Solutions-in-Swift",
+    "html_url": "https://github.com/diwu/LeetCode-Solutions-in-Swift",
+    "description": "LeetCode Solutions in Swift 5",
+    "language": "Swift"
+  },
+  {
+    "name": "chat-with-your-data-solution-accelerator",
+    "html_url": "https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator",
+    "description": "A Solution Accelerator for the RAG pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences. This includes most common requirements and best practices.",
+    "language": "Python"
+  },
+  {
+    "name": "HackerRank-Solutions",
+    "html_url": "https://github.com/nathan-abela/HackerRank-Solutions",
+    "description": "Solutions to HackerRank practice, tutorials and interview preparation problems with Python, SQL, C# and JavaScript",
+    "language": "Python"
+  },
+  {
+    "name": "sqlzoo-solutions",
+    "html_url": "https://github.com/jisaw/sqlzoo-solutions",
+    "description": "Solutions to the challenges on http://sqlzoo.net",
+    "language": null
+  },
+  {
+    "name": "LeetCode-2",
+    "html_url": "https://github.com/shuboc/LeetCode-2",
+    "description": "All 180 problem solutions",
+    "language": "Python"
+  },
+  {
+    "name": "PRML-Solution-Manual",
+    "html_url": "https://github.com/zhengqigao/PRML-Solution-Manual",
+    "description": "My Own Solution Manual of PRML",
+    "language": null
+  },
+  {
+    "name": "moguding-solution",
+    "html_url": "https://github.com/naichaduoyibei/moguding-solution",
+    "description": "🍄蘑菇丁/工学云自动签到解决方案，支持 GitHub Actions 部署。",
+    "language": "PHP"
+  },
+  {
+    "name": "sipser-computation-3rd-solutions",
+    "html_url": "https://github.com/gaurangsaini/sipser-computation-3rd-solutions",
+    "description": "Solutions to all questions of the book Introduction to the Theory of Computation, 3rd edition by Michael Sipser",
+    "language": null
+  },
+  {
+    "name": "UnityBezierSolution",
+    "html_url": "https://github.com/yasirkula/UnityBezierSolution",
+    "description": "A bezier spline solution for Unity 3D with some utility functions (like travelling the spline with constant speed/time)",
+    "language": "C#"
+  },
+  {
+    "name": "CLRS-Solutions",
+    "html_url": "https://github.com/yinyanghu/CLRS-Solutions",
+    "description": "Solutions to \"Introduction to Algorithm, 3rd Edition\"",
+    "language": "TeX"
+  },
+  {
+    "name": "Hackerrank-Problem-Solving-Python-Solutions",
+    "html_url": "https://github.com/sapanz/Hackerrank-Problem-Solving-Python-Solutions",
+    "description": "Hackerrank Problem solving solutions in Python",
+    "language": "Python"
+  },
+  {
+    "name": "Hackerrank_Python_Domain_Solutions",
+    "html_url": "https://github.com/arsho/Hackerrank_Python_Domain_Solutions",
+    "description": "Solutions of challenges of Hackerrank Python domain",
+    "language": "Python"
+  },
+  {
+    "name": "lock",
+    "html_url": "https://github.com/auth0/lock",
+    "description": "Auth0's signin solution",
+    "language": "JavaScript"
+  },
+  {
+    "name": "NotchSolution",
+    "html_url": "https://github.com/5argon/NotchSolution",
+    "description": "A set of components and tools to solve notched/cutout phones layout problems for Unity.",
+    "language": "C#"
+  },
+  {
+    "name": "virtual-display",
+    "html_url": "https://github.com/LinJiabang/virtual-display",
+    "description": "USB/Ethernet Display driver sample for Windows",
+    "language": "C"
+  },
+  {
+    "name": "Shortest-LeetCode-Python-Solutions",
+    "html_url": "https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions",
+    "description": "  Leet Code 刷题笔记 - - 不求最快最省，但求最短最优雅，Shorter is better here.",
+    "language": null
+  },
+  {
+    "name": "awesome-java-leetcode",
+    "html_url": "https://github.com/Blankj/awesome-java-leetcode",
+    "description": ":crown: LeetCode of algorithms with java solution(updating).",
+    "language": "Java"
+  },
+  {
+    "name": "openrasp",
+    "html_url": "https://github.com/baidu/openrasp",
+    "description": "🔥Open source RASP solution",
+    "language": "C++"
+  },
+  {
+    "name": "Deeplearning.ai-Solutions",
+    "html_url": "https://github.com/Yukong/Deeplearning.ai-Solutions",
+    "description": "Solutions of assignments and translation to Chinese",
+    "language": null
+  },
+  {
+    "name": "AWSCertifiedSolutionsArchitectUnofficialStudyGuide",
+    "html_url": "https://github.com/serithemage/AWSCertifiedSolutionsArchitectUnofficialStudyGuide",
+    "description": "비공식 AWS 공인 솔루션스 아키텍트 – 어소시에이트 시험 가이드",
+    "language": null
+  },
+  {
+    "name": "hub-detect",
+    "html_url": "https://github.com/blackducksoftware/hub-detect",
+    "description": "This is now deprecated.  Please see synopsys-detect.",
+    "language": "Java"
+  },
+  {
+    "name": "solutions",
+    "html_url": "https://github.com/googleworkspace/solutions",
+    "description": "Community contributed solutions for Google Workspace",
+    "language": "JavaScript"
+  },
+  {
+    "name": "btp-solution-diagrams",
+    "html_url": "https://github.com/SAP/btp-solution-diagrams",
+    "description": "SAP Business Technology Platform solution diagram repository, based on the official SAP BTP Solution diagram guideline. This has been designed in accordance with the SAP Fiori Horizon principles and color palette which provides a holistic and pleasing aesthetic and user experience.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "Leetcode-Solutions",
+    "html_url": "https://github.com/AnasImloul/Leetcode-Solutions",
+    "description": "A repository with over 7000 solutions to more than 1800 Leetcode problems written in C++, Python, Java, Javascript, Rust & Golang.",
+    "language": "Java"
+  },
+  {
+    "name": "css-grid",
+    "html_url": "https://github.com/wesbos/css-grid",
+    "description": "Starter Files + Solutions to my CSSGrid.io Course",
+    "language": "HTML"
+  },
+  {
+    "name": "CDCS",
+    "html_url": "https://github.com/geekinglcq/CDCS",
+    "description": "Chinese Data Competitions' Solutions",
+    "language": "Python"
+  },
+  {
+    "name": "CppPrimer",
+    "html_url": "https://github.com/pezy/CppPrimer",
+    "description": ":books: Solutions for C++ Primer 5th exercises.",
+    "language": "C++"
+  },
+  {
+    "name": "Tool-Solutions",
+    "html_url": "https://github.com/ARM-software/Tool-Solutions",
+    "description": "Tutorials & examples for Arm software development tools.",
+    "language": "C"
+  },
+  {
+    "name": "InterviewBit-Topicwise-Solutions",
+    "html_url": "https://github.com/black-shadows/InterviewBit-Topicwise-Solutions",
+    "description": "The repository contains solutions to various problems on interviewbit. The code is merely a snippet (as solved on InterviewBit) & hence is not executable in a c++ compiler. The code written is purely original and completely my own.",
+    "language": "C++"
+  },
+  {
+    "name": "Coding-Decoded",
+    "html_url": "https://github.com/Sunchit/Coding-Decoded",
+    "description": "LeetCode solutions ",
+    "language": "Java"
+  },
+  {
+    "name": "tolua",
+    "html_url": "https://github.com/topameng/tolua",
+    "description": "The fastest unity lua binding solution",
+    "language": "C#"
+  },
+  {
+    "name": "codility-lesson-solutions",
+    "html_url": "https://github.com/ghananigans/codility-lesson-solutions",
+    "description": "Answers to Codility's online lesson tasks",
+    "language": "C"
+  },
+  {
+    "name": "carbondata",
+    "html_url": "https://github.com/apache/carbondata",
+    "description": "High performance data store solution",
+    "language": "Scala"
+  },
+  {
+    "name": "HackerRank-SQL-Challenges-Solutions",
+    "html_url": "https://github.com/Thomas-George-T/HackerRank-SQL-Challenges-Solutions",
+    "description": "The solutions of all SQL hackerrank challenges using MySQL environment",
+    "language": "SQL"
+  },
+  {
+    "name": "CtCI-6th-Edition-Python",
+    "html_url": "https://github.com/careercup/CtCI-6th-Edition-Python",
+    "description": "Cracking the Coding Interview 6th Ed. Python Solutions",
+    "language": "Python"
+  },
+  {
+    "name": "CS224n-2019-solutions",
+    "html_url": "https://github.com/ZacBi/CS224n-2019-solutions",
+    "description": "Complete solutions for Stanford CS224n, winter, 2019",
+    "language": "Python"
+  },
+  {
+    "name": "100-plus-python-coding-problems-with-solutions",
+    "html_url": "https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions",
+    "description": "A list of python problems for beginners and intermediate developers",
+    "language": null
+  },
+  {
+    "name": "Reinforcement-Learning-2nd-Edition-by-Sutton-Exercise-Solutions",
+    "html_url": "https://github.com/LyWangPX/Reinforcement-Learning-2nd-Edition-by-Sutton-Exercise-Solutions",
+    "description": "Solutions of Reinforcement Learning, An Introduction",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "SolutionRenamer",
+    "html_url": "https://github.com/stulzq/SolutionRenamer",
+    "description": "Fast rename solution,using .net core 2.0",
+    "language": "C#"
+  },
+  {
+    "name": "DataCastle-Solution",
+    "html_url": "https://github.com/wepe/DataCastle-Solution",
+    "description": "1st Place Solution for DataCastle-CashBus Competition",
+    "language": "Java"
+  },
+  {
+    "name": "solutions",
+    "html_url": "https://github.com/ProjectDrawdown/solutions",
+    "description": "The mission of Project Drawdown is to help the world reach “Drawdown”— the point in the future when levels of greenhouse gases in the atmosphere stop climbing and start to steadily decline, thereby stopping catastrophic climate change — as quickly, safely, and equitably as possible.",
+    "language": "Python"
+  },
+  {
+    "name": "open-solution-home-credit",
+    "html_url": "https://github.com/minerva-ml/open-solution-home-credit",
+    "description": "Open solution to the Home Credit Default Risk challenge :house_with_garden:",
+    "language": "Python"
+  },
+  {
+    "name": "DriverPack-Solution",
+    "html_url": "https://github.com/DriverPackSolution/DriverPack-Solution",
+    "description": "DriverPack Solution — is the most popular program that makes the job of finding and automatically installing drivers a pleasure. DriverPack Software is subject to GNU GPL v2 as the end-user license (user agreement).",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Hilo",
+    "html_url": "https://github.com/hiloteam/Hilo",
+    "description": "A Cross-end HTML5 Game development solution",
+    "language": "JavaScript"
+  },
+  {
+    "name": "CodingBat-Solutions",
+    "html_url": "https://github.com/ozelentok/CodingBat-Solutions",
+    "description": "CodingBat Solutions in Java (Python might be added in the future) ",
+    "language": "Java"
+  },
+  {
+    "name": "javascript-problems-and-solutions",
+    "html_url": "https://github.com/jeantimex/javascript-problems-and-solutions",
+    "description": ":trident: A collection of JavaScript problems and solutions for studying algorithms.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "ACMFinalsSolutions",
+    "html_url": "https://github.com/SnapDragon64/ACMFinalsSolutions",
+    "description": "SnapDragon's solutions for the ACM ICPC World Finals problems.",
+    "language": "C++"
+  },
+  {
+    "name": "codis",
+    "html_url": "https://github.com/CodisLabs/codis",
+    "description": "Proxy based Redis cluster solution supporting pipeline and scaling dynamically",
+    "language": "Go"
+  },
+  {
+    "name": "BLINK",
+    "html_url": "https://github.com/facebookresearch/BLINK",
+    "description": "Entity Linker solution",
+    "language": "Python"
+  },
+  {
+    "name": "Cracking-the-Coding-Interview_solutions",
+    "html_url": "https://github.com/RodneyShag/Cracking-the-Coding-Interview_solutions",
+    "description": "Efficient solutions to \"Cracking the Coding Interview\" (6th Edition) problems",
+    "language": "Java"
+  },
+  {
+    "name": "certified-aws-solutions-architect-professional",
+    "html_url": "https://github.com/Ernyoke/certified-aws-solutions-architect-professional",
+    "description": "AWS Certified Solutions Architect – Professional (SAP-C02) Notes",
+    "language": null
+  },
+  {
+    "name": "ngrinder",
+    "html_url": "https://github.com/naver/ngrinder",
+    "description": "enterprise level performance testing solution",
+    "language": "Java"
+  },
+  {
+    "name": "Leetcode-Solutions",
+    "html_url": "https://github.com/gahogg/Leetcode-Solutions",
+    "description": "The repository for all of the solutions to the Leetcode problems solved on my YouTube, Instagram and TikTok",
+    "language": "Java"
+  },
+  {
+    "name": "aws-data-lake-solution",
+    "html_url": "https://github.com/aws-solutions/aws-data-lake-solution",
+    "description": "A deployable reference implementation intended to address pain points around conceptualizing data lake architectures that automatically configures the core AWS services necessary to easily tag, search, share, and govern specific subsets of data across a business or with other external businesses.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "r4ds-exercise-solutions",
+    "html_url": "https://github.com/jrnold/r4ds-exercise-solutions",
+    "description": "Exercise solutions to \"R for Data Science\"",
+    "language": "R"
+  },
+  {
+    "name": "CLRS",
+    "html_url": "https://github.com/walkccc/CLRS",
+    "description": "📚 Solutions to Introduction to Algorithms Third Edition",
+    "language": "Markdown"
+  },
+  {
+    "name": "Aman-Barnwal-Leetcode-Solutions",
+    "html_url": "https://github.com/Amanhacker/Aman-Barnwal-Leetcode-Solutions",
+    "description": "This repo contains my Leetcode Solutions question-wise !",
+    "language": "C++"
+  },
+  {
+    "name": "Leetcode-Solutions",
+    "html_url": "https://github.com/nermeenwageh10/Leetcode-Solutions",
+    "description": "This collection of beginner-friendly LeetCode problems. This repository features easy-to-understand solutions that are constantly updated for improved performance. Whether you're a coding novice or looking to refresh your skills, this repository is a great resource to help you develop your abilities and become a better programmer.",
+    "language": "C++"
+  },
+  {
+    "name": "Advanced-R-Solutions",
+    "html_url": "https://github.com/Tazinho/Advanced-R-Solutions",
+    "description": "Set of solutions for the Advanced R programming book",
+    "language": "R"
+  },
+  {
+    "name": "solutions-terraform-jenkins-gitops",
+    "html_url": "https://github.com/GoogleCloudPlatform/solutions-terraform-jenkins-gitops",
+    "description": "Demonstrates the use of Jenkins and Terraform to manage Infrastructure as Code using GitOps practices",
+    "language": "HCL"
+  },
+  {
+    "name": "hackerrank",
+    "html_url": "https://github.com/charles-wangkai/hackerrank",
+    "description": "My HackerRank solutions",
+    "language": "Java"
+  },
+  {
+    "name": "clean-architecture-solution-template",
+    "html_url": "https://github.com/kavaan/clean-architecture-solution-template",
+    "description": "You don't always need to start over; consider utilizing the existing infrastructure!",
+    "language": null
+  },
+  {
+    "name": "competitive-programming-solutions",
+    "html_url": "https://github.com/rathoresrikant/competitive-programming-solutions",
+    "description": "This repository will contain the accepted solutions of problems  on sites like codechef, hackerrank, hackerearth, codeforces etc",
+    "language": "C++"
+  },
+  {
+    "name": "abp-samples",
+    "html_url": "https://github.com/abpframework/abp-samples",
+    "description": "Sample solutions built with the ABP Framework",
+    "language": "C#"
+  },
+  {
+    "name": "Full-Stack-Foundations",
+    "html_url": "https://github.com/udacity/Full-Stack-Foundations",
+    "description": "Solution Code to Full Stack Foundations (ud088)",
+    "language": "Python"
+  },
+  {
+    "name": "CP-Solutions",
+    "html_url": "https://github.com/dixitt5/CP-Solutions",
+    "description": "(Inactive) - This repo will have solutions for multiple platforms questions.",
+    "language": "C++"
+  },
+  {
+    "name": "LPL-solutions",
+    "html_url": "https://github.com/Jumaruba/LPL-solutions",
+    "description": "Solutions for the book \"Language Proof and Logic\".",
+    "language": null
+  },
+  {
+    "name": "UVa-Solutions",
+    "html_url": "https://github.com/ackoroa/UVa-Solutions",
+    "description": "Solutions for solved UVa problems. My statistics: http://uhunt.felix-halim.net/id/198941",
+    "language": "C++"
+  },
+  {
+    "name": "Solution-Starter-Kit-Communication-2020",
+    "html_url": "https://github.com/Call-for-Code/Solution-Starter-Kit-Communication-2020",
+    "description": "Materials for the Call for Code 2020 solution starter kit for crisis communication in the context of COVID-19.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "ShopOnlineSolution",
+    "html_url": "https://github.com/GavinLonDigital/ShopOnlineSolution",
+    "description": "ShopOnlineSolution is part of a Blazor Shopping Cart Application video tutorial demonstrated on YouTube at this location, https://youtu.be/3_AsedRrqww?list=PL4LFuHwItvKbdK-ogNsOx2X58hHGeQm8c",
+    "language": "C#"
+  },
+  {
+    "name": "LeetCode_solutions",
+    "html_url": "https://github.com/RodneyShag/LeetCode_solutions",
+    "description": "203 efficient solutions to LeetCode problems",
+    "language": null
+  },
+  {
+    "name": "incubator-seata",
+    "html_url": "https://github.com/apache/incubator-seata",
+    "description": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution.",
+    "language": "Java"
+  },
+  {
+    "name": "CtCI-6th-Edition-JavaScript",
+    "html_url": "https://github.com/careercup/CtCI-6th-Edition-JavaScript",
+    "description": "Cracking the Coding Interview 6th Ed. JavaScript Solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "eShopSolution",
+    "html_url": "https://github.com/teduinternational/eShopSolution",
+    "description": "eShopSolution is a tutorial solution for everyone using .NET Core 3.1",
+    "language": "C#"
+  },
+  {
+    "name": "Vulkan-Samples",
+    "html_url": "https://github.com/KhronosGroup/Vulkan-Samples",
+    "description": "One stop solution for all Vulkan samples",
+    "language": "C++"
+  },
+  {
+    "name": "cs-bin-solutions",
+    "html_url": "https://github.com/CodesmithLLC/cs-bin-solutions",
+    "description": "Solution code to CS Bin Challenges",
+    "language": "JavaScript"
+  },
+  {
+    "name": "mercari-solution",
+    "html_url": "https://github.com/pjankiewicz/mercari-solution",
+    "description": "Mercari 1st place solution (kaggle)",
+    "language": "Python"
+  },
+  {
+    "name": "CCF-CSP-and-PAT-solution",
+    "html_url": "https://github.com/richenyunqi/CCF-CSP-and-PAT-solution",
+    "description": "CCF CSP和PAT考试题解（使用C++14语法）",
+    "language": "C++"
+  },
+  {
+    "name": "certified-aws-solutions-architect-associate",
+    "html_url": "https://github.com/Ernyoke/certified-aws-solutions-architect-associate",
+    "description": "AWS Certified Solutions Architect - Associate (SAA-S02) Exam Notes",
+    "language": null
+  },
+  {
+    "name": "unleash",
+    "html_url": "https://github.com/Unleash/unleash",
+    "description": "Open-source feature management solution built for developers.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "Solutions-Notes",
+    "html_url": "https://github.com/wx-chevalier/Solutions-Notes",
+    "description": ":books: 服务端开发实践与工程架构，服务端基础篇 | 微服务与云原生篇 | Spring 篇 | Node.js 篇 | DevOps 篇 | 信息安全与渗透测试篇",
+    "language": "HTML"
+  },
+  {
+    "name": "java-solutions",
+    "html_url": "https://github.com/nikoo28/java-solutions",
+    "description": "Solutions in JAVA for some coding platforms.",
+    "language": "Java"
+  },
+  {
+    "name": "ijcai-18-top2-single-mole-solution",
+    "html_url": "https://github.com/YouChouNoBB/ijcai-18-top2-single-mole-solution",
+    "description": "复赛第二名单模型方案，没有特征选择没有调参LGB单模型857个特征",
+    "language": "Python"
+  },
+  {
+    "name": "Leetcode",
+    "html_url": "https://github.com/Garvit244/Leetcode",
+    "description": "🎓Leetcode solutions in Python 📚",
+    "language": "Python"
+  },
+  {
+    "name": "projecteuler-solutions",
+    "html_url": "https://github.com/lucky-bai/projecteuler-solutions",
+    "description": "Numerical answers to all Project Euler problems",
+    "language": null
+  },
+  {
+    "name": "swizzin",
+    "html_url": "https://github.com/swizzin/swizzin",
+    "description": "A simple, modular seedbox solution",
+    "language": "Shell"
+  },
+  {
+    "name": "leetcode-javascript",
+    "html_url": "https://github.com/chihungyu1116/leetcode-javascript",
+    "description": "Leetcode Solution using Javascript",
+    "language": "JavaScript"
+  },
+  {
+    "name": "python-for-everybody-solutions",
+    "html_url": "https://github.com/jmelahman/python-for-everybody-solutions",
+    "description": "Solutions to Python for Everybody: Exploring Data using Python 3 by Charles Severance",
+    "language": "Python"
+  },
+  {
+    "name": "LeetCode",
+    "html_url": "https://github.com/pezy/LeetCode",
+    "description": ":pencil2: LeetCode solutions in C++ 11 and Python3",
+    "language": "C++"
+  },
+  {
+    "name": "qiankun",
+    "html_url": "https://github.com/umijs/qiankun",
+    "description": "📦 🚀 Blazing fast, simple and complete solution for micro frontends.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "v2ray-worker",
+    "html_url": "https://github.com/vfarid/v2ray-worker",
+    "description": "Total solution for V2Ray over Cloudflare's worker",
+    "language": "TypeScript"
+  },
+  {
+    "name": "kaggle-titanic",
+    "html_url": "https://github.com/minsuk-heo/kaggle-titanic",
+    "description": "kaggle titanic solution",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "DataCamp-Project-Solutions-Python",
+    "html_url": "https://github.com/veeralakrishna/DataCamp-Project-Solutions-Python",
+    "description": "DataCamp Project Solutions",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "aws-security-assessment-solution",
+    "html_url": "https://github.com/awslabs/aws-security-assessment-solution",
+    "description": "An AWS tool to help you create a point in time assessment of your AWS account using Prowler.",
+    "language": "Python"
+  },
+  {
+    "name": "hackerrank-solutions",
+    "html_url": "https://github.com/Transfusion/hackerrank-solutions",
+    "description": "My solutions to various HackerRank.com exercises.",
+    "language": "Java"
+  },
+  {
+    "name": "AZ-305-DesigningMicrosoftAzureInfrastructureSolutions",
+    "html_url": "https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions",
+    "description": "AZ-305: Designing Microsoft Azure Infrastructure Solutions",
+    "language": null
+  },
+  {
+    "name": "Edabit-Solutions",
+    "html_url": "https://github.com/aayushi-droid/Edabit-Solutions",
+    "description": "Edabit Solutions using Cpp(C++)",
+    "language": "C++"
+  },
+  {
+    "name": "HDL-Bits-Solutions",
+    "html_url": "https://github.com/viduraakalanka/HDL-Bits-Solutions",
+    "description": "This is a repository containing solutions to the problem statements given in HDL Bits website.",
+    "language": "Verilog"
+  },
+  {
+    "name": "InterviewBit",
+    "html_url": "https://github.com/shreya367/InterviewBit",
+    "description": "InterviewBit Solutions",
+    "language": null
+  },
+  {
+    "name": "Daily-Coding-Problem-Solutions",
+    "html_url": "https://github.com/ruppysuppy/Daily-Coding-Problem-Solutions",
+    "description": "🎓🖥️ Solutions for 350+ Interview Questions asked at FANG and other top tech companies",
+    "language": "Python"
+  },
+  {
+    "name": "cpp-solutions",
+    "html_url": "https://github.com/luyencode/cpp-solutions",
+    "description": "[Sưu tầm] Tổng hợp lời giải 1000 bài tập lập trình của thầy Nguyễn Tấn Trần Minh Khang",
+    "language": "C++"
+  },
+  {
+    "name": "OSTEP-Solution",
+    "html_url": "https://github.com/ahmedbilal/OSTEP-Solution",
+    "description": "Operating System Three Easy Pieces Solution.",
+    "language": "C"
+  },
+  {
+    "name": "freecodecamp-solutions",
+    "html_url": "https://github.com/yadavanuj1996/freecodecamp-solutions",
+    "description": "Implemented solutions for coding challenges & web app projects of 1800 hour long full stack developer roadmap from freeCodeCamp.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "grunticon",
+    "html_url": "https://github.com/filamentgroup/grunticon",
+    "description": "A mystical CSS icon solution.",
+    "language": "HTML"
+  },
+  {
+    "name": "ui-router",
+    "html_url": "https://github.com/angular-ui/ui-router",
+    "description": "The de-facto solution to flexible routing with nested views in AngularJS",
+    "language": "TypeScript"
+  },
+  {
+    "name": "Kattis-Solutions",
+    "html_url": "https://github.com/JonSteinn/Kattis-Solutions",
+    "description": "Solutions to the Kattis archives",
+    "language": "C"
+  },
+  {
+    "name": "VictoriaMetrics",
+    "html_url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+    "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+    "language": "Go"
+  },
+  {
+    "name": "ctf",
+    "html_url": "https://github.com/p4-team/ctf",
+    "description": "Ctf solutions from p4 team",
+    "language": "Python"
+  },
+  {
+    "name": "docker-android",
+    "html_url": "https://github.com/budtmo/docker-android",
+    "description": "Android in docker solution with noVNC supported and video recording",
+    "language": "Python"
+  },
+  {
+    "name": "sp-power-platform-solutions",
+    "html_url": "https://github.com/pnp/sp-power-platform-solutions",
+    "description": "Sample PowerApps solutions designed to be used in SharePoint context",
+    "language": "PowerShell"
+  },
+  {
+    "name": "coursera-machine-learning-solutions-python",
+    "html_url": "https://github.com/suraggupta/coursera-machine-learning-solutions-python",
+    "description": "A repository with solutions to the assignments on Andrew Ng's machine learning MOOC on Coursera",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "open-solution-mapping-challenge",
+    "html_url": "https://github.com/neptune-ai/open-solution-mapping-challenge",
+    "description": "Open solution to the Mapping Challenge :earth_americas:",
+    "language": "Python"
+  },
+  {
+    "name": "document-understanding-solution",
+    "html_url": "https://github.com/aws-solutions/document-understanding-solution",
+    "description": "Example of integrating & using Amazon Textract, Amazon Comprehend, Amazon Comprehend Medical, Amazon Kendra to automate the processing of documents for use cases such as enterprise search and discovery, control and compliance, and general business process workflow.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "freecodecamp-solutions",
+    "html_url": "https://github.com/h4r1m4u/freecodecamp-solutions",
+    "description": "Solutions to FreeCodeCamp.com challenges and projects. ",
+    "language": "HTML"
+  },
+  {
+    "name": "UnityResourceSolution",
+    "html_url": "https://github.com/killop/UnityResourceSolution",
+    "description": "青霜-UnityResourceSolution",
+    "language": "C#"
+  },
+  {
+    "name": "learnyounode-solutions",
+    "html_url": "https://github.com/frasertweedale/learnyounode-solutions",
+    "description": "solutions to rvagg/learnyounode nodejs tutorial",
+    "language": "JavaScript"
+  },
+  {
+    "name": "codewars_python_solutions",
+    "html_url": "https://github.com/hevalhazalkurt/codewars_python_solutions",
+    "description": "My codewars solutions in Python. ",
+    "language": "Python"
+  },
+  {
+    "name": "kaggle-solutions",
+    "html_url": "https://github.com/liaopeiyuan/kaggle-solutions",
+    "description": "Solutions to my previous Kaggle competitions",
+    "language": "Python"
+  },
+  {
+    "name": "xhyve",
+    "html_url": "https://github.com/machyve/xhyve",
+    "description": "xhyve, a lightweight OS X virtualization solution",
+    "language": "C"
+  },
+  {
+    "name": "vscode-solution-explorer",
+    "html_url": "https://github.com/fernandoescolar/vscode-solution-explorer",
+    "description": "This is a Visual Studio Code extension that provides a (.sln) Visual Studio Solution explorer panel..",
+    "language": "TypeScript"
+  },
+  {
+    "name": "URI-Online-Judge-Solutions",
+    "html_url": "https://github.com/eduardo-mior/URI-Online-Judge-Solutions",
+    "description": "Repositório de soluções de exercícios do URI Online Judge.",
+    "language": "Java"
+  },
+  {
+    "name": "LeetCode-Topicwise-Solutions",
+    "html_url": "https://github.com/black-shadows/LeetCode-Topicwise-Solutions",
+    "description": "The repository contains solutions to various problems on leetcode. The code is merely a snippet (as solved on LeetCode) & hence is not executable in a c++ compiler. The code written is purely original and completely my own.",
+    "language": "C++"
+  },
+  {
+    "name": "InterviewBit-Java-Solutions",
+    "html_url": "https://github.com/varunu28/InterviewBit-Java-Solutions",
+    "description": "Java code for solutions of interview problems on InterviewBit",
+    "language": "Java"
+  },
+  {
+    "name": "AWS-SAA-C02-Study-Guide",
+    "html_url": "https://github.com/keenanromain/AWS-SAA-C02-Study-Guide",
+    "description": "How to become a certified AWS Solutions Architect",
+    "language": null
+  },
+  {
+    "name": "AlgoSolution",
+    "html_url": "https://github.com/watashi/AlgoSolution",
+    "description": "Solutions for Problems of Algorithm Contests and Online Judges",
+    "language": "C++"
+  },
+  {
+    "name": "vmware-scripts",
+    "html_url": "https://github.com/lamw/vmware-scripts",
+    "description": "Various scripts for VMware based solutions",
+    "language": "Perl"
+  },
+  {
+    "name": "the-c-programming-language-second-edition-solutions",
+    "html_url": "https://github.com/ccpalettes/the-c-programming-language-second-edition-solutions",
+    "description": "Solutions for all exercises in the book \"The C Programming Language - Second Edition\"(referred to as K&R, after its authors' initials) by Brian W. Kernighan and Dennis M. Ritchie.",
+    "language": "C"
+  },
+  {
+    "name": "CoderByte-Challenges-Solutions",
+    "html_url": "https://github.com/Hardanish-Singh/CoderByte-Challenges-Solutions",
+    "description": "CoderByte-Challenges-Solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "CodeSignal-Solutions",
+    "html_url": "https://github.com/neemiassgc/CodeSignal-Solutions",
+    "description": "CodeSignal solutions",
+    "language": "Java"
+  },
+  {
+    "name": "kaggle-competition-solutions",
+    "html_url": "https://github.com/SeuTao/kaggle-competition-solutions",
+    "description": "Kaggle competition solutions",
+    "language": "Python"
+  },
+  {
+    "name": "Advanced-React",
+    "html_url": "https://github.com/wesbos/Advanced-React",
+    "description": "Starter Files and Solutions for Full Stack Advanced React and GraphQL ",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Interview_solutions",
+    "html_url": "https://github.com/RodneyShag/Interview_solutions",
+    "description": "Efficient solutions to must-know interview problems",
+    "language": null
+  },
+  {
+    "name": "LeetCode-Go",
+    "html_url": "https://github.com/halfrost/LeetCode-Go",
+    "description": "✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解",
+    "language": "Go"
+  },
+  {
+    "name": "type-challenges-solutions",
+    "html_url": "https://github.com/ghaiklor/type-challenges-solutions",
+    "description": "Solutions for the collection of TypeScript type challenges with explanations",
+    "language": "HTML"
+  },
+  {
+    "name": "geeks-for-geeks-solutions",
+    "html_url": "https://github.com/omonimus1/geeks-for-geeks-solutions",
+    "description": "✅ My own Amazon, Microsoft and Google SDE Coding challenge Solutions (offered by GeeksForGeeks).",
+    "language": "C++"
+  },
+  {
+    "name": "Machine-Learning-A-Probabilistic-Perspective-Solutions",
+    "html_url": "https://github.com/ArthurZC23/Machine-Learning-A-Probabilistic-Perspective-Solutions",
+    "description": "My solutions to Kevin Murphy Machine Learning Book",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "pc-chat",
+    "html_url": "https://github.com/wildfirechat/pc-chat",
+    "description": "Open source IM solution. ",
+    "language": null
+  },
+  {
+    "name": "AlgoSolutions",
+    "html_url": "https://github.com/mitcc/AlgoSolutions",
+    "description": ":octocat:LeetCode, LintCode, Project Euler, SGU, HackerRank, Cracking the Coding Interview(ctci):palm_tree:",
+    "language": "Java"
+  },
+  {
+    "name": "HackerEarth-Solution",
+    "html_url": "https://github.com/parasjain-12/HackerEarth-Solution",
+    "description": "Contains hackerearth solutions in python 3",
+    "language": "Python"
+  },
+  {
+    "name": "O2O-Coupon-Usage-Forecast",
+    "html_url": "https://github.com/wepe/O2O-Coupon-Usage-Forecast",
+    "description": "1st Place Solution for O2O Coupon Usage Forecast",
+    "language": "Python"
+  },
+  {
+    "name": "HackerRank",
+    "html_url": "https://github.com/srgnk/HackerRank",
+    "description": "Solutions to HackerRank problems",
+    "language": "Python"
+  },
+  {
+    "name": "terraform-training-solutions",
+    "html_url": "https://github.com/gruntwork-io/terraform-training-solutions",
+    "description": "The solutions for the exercises in the Infrastructure as Code with Terraform Workshop",
+    "language": "HCL"
+  },
+  {
+    "name": "leetcode-solution",
+    "html_url": "https://github.com/hogan-tech/leetcode-solution",
+    "description": "Explore diverse LeetCode solutions in Python, C++, JavaScript, SQL, and TypeScript. Ideal for interview prep, learning, and code practice in multiple programming languages.",
+    "language": "Python"
+  },
+  {
+    "name": "meteor-admin",
+    "html_url": "https://github.com/yogiben/meteor-admin",
+    "description": "A complete admin dashboard solution",
+    "language": "CoffeeScript"
+  },
+  {
+    "name": "PUBG-map-hack",
+    "html_url": "https://github.com/jussihi/PUBG-map-hack",
+    "description": "Map hack solution for PUBG",
+    "language": "C++"
+  },
+  {
+    "name": "HeaderAndFooterRecyclerView",
+    "html_url": "https://github.com/cundong/HeaderAndFooterRecyclerView",
+    "description": "A RecyclerView solution, support addHeaderView、addFooterView",
+    "language": "Java"
+  },
+  {
+    "name": "EAIntroView",
+    "html_url": "https://github.com/ealeksandrov/EAIntroView",
+    "description": "Highly customizable drop-in solution for introduction views.",
+    "language": "Objective-C"
+  },
+  {
+    "name": "gen-cv",
+    "html_url": "https://github.com/Azure/gen-cv",
+    "description": "Vision AI Solution Accelerator ",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "SmartStoreNET",
+    "html_url": "https://github.com/smartstore/SmartStoreNET",
+    "description": "Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution",
+    "language": "C#"
+  },
+  {
+    "name": "Verilog-Practice",
+    "html_url": "https://github.com/xiaop1/Verilog-Practice",
+    "description": "HDLBits website practices & solutions",
+    "language": "Verilog"
+  },
+  {
+    "name": "solutions-bwapp",
+    "html_url": "https://github.com/skiptomyliu/solutions-bwapp",
+    "description": "In progress rough solutions to bWAPP / bee-box",
+    "language": "HTML"
+  },
+  {
+    "name": "Hackerrank_solutions",
+    "html_url": "https://github.com/haotian-wu/Hackerrank_solutions",
+    "description": "This repository contains my solutions to easy and medium questions in Hackerrank. Hope that helps.",
+    "language": "C++"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/tech-cow/leetcode",
+    "description": "👏🏻 leetcode solutions for Humans™",
+    "language": "Python"
+  },
+  {
+    "name": "Interview-Bit",
+    "html_url": "https://github.com/royalpranjal/Interview-Bit",
+    "description": "Solutions to problems on Interview Bit ",
+    "language": "C++"
+  },
+  {
+    "name": "BFE.dev-solutions",
+    "html_url": "https://github.com/BFEdev/BFE.dev-solutions",
+    "description": "Solutions to questions on BFE.dev",
+    "language": null
+  },
+  {
+    "name": "PrestaShop",
+    "html_url": "https://github.com/PrestaShop/PrestaShop",
+    "description": "PrestaShop is the universal open-source software platform to build your e-commerce solution.",
+    "language": "PHP"
+  },
+  {
+    "name": "woocommerce",
+    "html_url": "https://github.com/woocommerce/woocommerce",
+    "description": "A customizable, open-source ecommerce platform built on WordPress. Build any commerce solution you can imagine.",
+    "language": "PHP"
+  },
+  {
+    "name": "CTF-Solutions",
+    "html_url": "https://github.com/osirislab/CTF-Solutions",
+    "description": "Solutions to a variety of Capture The Flag challenges from different competitions.",
+    "language": "Python"
+  },
+  {
+    "name": "Destination-FAANG-Java-Solution",
+    "html_url": "https://github.com/DestinationFAANG/Destination-FAANG-Java-Solution",
+    "description": "Java solution for most popular Leetcode questions ",
+    "language": "Java"
+  },
+  {
+    "name": "Algorithms",
+    "html_url": "https://github.com/pedrovgs/Algorithms",
+    "description": "Solutions for some common algorithm problems written in Java.",
+    "language": "Java"
+  },
+  {
+    "name": "DataCamp_Solutions_Python",
+    "html_url": "https://github.com/dmitriy-kisil/DataCamp_Solutions_Python",
+    "description": "My solutions to DataCamp projects (now only Python)",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "leetcode-solutions",
+    "html_url": "https://github.com/franklingu/leetcode-solutions",
+    "description": "Solutions for LeetCode",
+    "language": "Python"
+  },
+  {
+    "name": "sicp-solutions",
+    "html_url": "https://github.com/qiao/sicp-solutions",
+    "description": "My solutions to Structure and Interpretation of Computer Programs",
+    "language": "Scheme"
+  },
+  {
+    "name": "Marzban",
+    "html_url": "https://github.com/Gozargah/Marzban",
+    "description": "Unified GUI Censorship Resistant Solution Powered by Xray",
+    "language": "Python"
+  },
+  {
+    "name": "jddc_solution_4th",
+    "html_url": "https://github.com/zengbin93/jddc_solution_4th",
+    "description": "2018-JDDC大赛第4名的解决方案",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "LeetCodeSolutions",
+    "html_url": "https://github.com/Akshaya-Amar/LeetCodeSolutions",
+    "description": "C++ / JAVA Optimised Solutions for LeetCode Problems",
+    "language": "Java"
+  },
+  {
+    "name": "auth",
+    "html_url": "https://github.com/qor/auth",
+    "description": "Golang Authentication solution",
+    "language": "Go"
+  },
+  {
+    "name": "HackerRank",
+    "html_url": "https://github.com/RyanFehr/HackerRank",
+    "description": "HackerRank solutions in Java/JS/Python/C++/C#",
+    "language": "Java"
+  },
+  {
+    "name": "StreamDiffusion",
+    "html_url": "https://github.com/cumulo-autumn/StreamDiffusion",
+    "description": "StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation",
+    "language": "Python"
+  },
+  {
+    "name": "codingbat",
+    "html_url": "https://github.com/mirandaio/codingbat",
+    "description": "Solutions to CodingBat problems",
+    "language": "Java"
+  },
+  {
+    "name": "nd9991-c3-hello-world-exercise-solution",
+    "html_url": "https://github.com/udacity/nd9991-c3-hello-world-exercise-solution",
+    "description": "Hello world exercise from ND9991 C3 L4",
+    "language": "HTML"
+  },
+  {
+    "name": "UVA-Solutions",
+    "html_url": "https://github.com/Diusrex/UVA-Solutions",
+    "description": "My solutions to the UVA problems that I have solved. THIS IS NOT MY USUAL CODING STYLE, IT IS A QUICK AND DIRTY ONE FOR PROGRAMMING CONTESTS.",
+    "language": "C++"
+  },
+  {
+    "name": "Java-Solutions-TCS-Xplore-Proctored-Assessment",
+    "html_url": "https://github.com/venkivijay/Java-Solutions-TCS-Xplore-Proctored-Assessment",
+    "description": "Java Solution to the TCS Xplore Proctored Assessment 2020",
+    "language": "Java"
+  },
+  {
+    "name": "TeamTalk",
+    "html_url": "https://github.com/hnzhangshilong/TeamTalk",
+    "description": "TeamTalk is a solution for enterprise IM",
+    "language": "Objective-C"
+  },
+  {
+    "name": "Kaggle_Competition_Treasure",
+    "html_url": "https://github.com/dayeren/Kaggle_Competition_Treasure",
+    "description": "Describe past Kaggle solutions",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "cssbattle-solutions",
+    "html_url": "https://github.com/alexzaworski/cssbattle-solutions",
+    "description": "My solutions for cssbattle.dev",
+    "language": "HTML"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/gzwl/leetcode",
+    "description": "The optimum C++  solutions for the leetcode",
+    "language": "C++"
+  },
+  {
+    "name": "DSB2017",
+    "html_url": "https://github.com/lfz/DSB2017",
+    "description": "The solution of team 'grt123' in DSB2017",
+    "language": "Python"
+  },
+  {
+    "name": "razor",
+    "html_url": "https://github.com/cobub/razor",
+    "description": "Cobub Razor - Open Source Mobile Analytics Solution",
+    "language": "PHP"
+  },
+  {
+    "name": "huge",
+    "html_url": "https://github.com/panique/huge",
+    "description": "Simple user-authentication solution, embedded into a small framework.",
+    "language": "PHP"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/jp9573/LeetCode-Solutions",
+    "description": "Collection of all the LeetCode problem solutions using different programming languages.",
+    "language": "C++"
+  },
+  {
+    "name": "CleanArchitecture",
+    "html_url": "https://github.com/ardalis/CleanArchitecture",
+    "description": "Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core",
+    "language": "C#"
+  },
+  {
+    "name": "VTU-CSE-LAB-SOLUTIONS",
+    "html_url": "https://github.com/AbhishekMali21/VTU-CSE-LAB-SOLUTIONS",
+    "description": "ONE PLATFORM FOR ALL THE CSE LAB SOLUTIONS OF VTU  - EASIEST, SIMPLE & CRYSTAL CLEAR CONTENT :) (SCHEMES INCLUDED ARE +2015 +2017 +2018) ",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "LeetCode",
+    "html_url": "https://github.com/LjyYano/LeetCode",
+    "description": "LeetCode Java solution",
+    "language": "Java"
+  },
+  {
+    "name": "Learning-from-Data-Solutions",
+    "html_url": "https://github.com/ppaquay/Learning-from-Data-Solutions",
+    "description": "Repository of my solutions to the problems of \"Learning from Data\"",
+    "language": null
+  },
+  {
+    "name": "book-exercises",
+    "html_url": "https://github.com/bitsai/book-exercises",
+    "description": "Exercise solutions for programming books.",
+    "language": "C++"
+  },
+  {
+    "name": "solution-acceleration-toolkit",
+    "html_url": "https://github.com/GoogleCloudPlatform/solution-acceleration-toolkit",
+    "description": "Deploy, monitor & audit on GCP simplified",
+    "language": "Go"
+  },
+  {
+    "name": "Introduction-to-the-Theory-of-Computation-Solutions",
+    "html_url": "https://github.com/ryandougherty/Introduction-to-the-Theory-of-Computation-Solutions",
+    "description": "Solutions to Michael Sipser's Introduction to the Theory of Computation Book (3rd Edition).",
+    "language": "TeX"
+  },
+  {
+    "name": "kube-router",
+    "html_url": "https://github.com/cloudnativelabs/kube-router",
+    "description": "Kube-router, a turnkey solution for Kubernetes networking.",
+    "language": "Go"
+  },
+  {
+    "name": "AlgoDS",
+    "html_url": "https://github.com/sherxon/AlgoDS",
+    "description": "Implementation of Algorithms and Data Structures, Problems and Solutions",
+    "language": "Java"
+  },
+  {
+    "name": "NNDL-solutions",
+    "html_url": "https://github.com/nndl-solutions/NNDL-solutions",
+    "description": "Solutions of the exercises and problems from Michael Nielsen's book Neural Networks and Deep Learning: http://neuralnetworksanddeeplearning.com/",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "InterviewBit",
+    "html_url": "https://github.com/nagajyothi/InterviewBit",
+    "description": "My solutions",
+    "language": "Java"
+  },
+  {
+    "name": "ds-algo-solutions",
+    "html_url": "https://github.com/adityabisoi/ds-algo-solutions",
+    "description": "A collection of solutions for Hackerrank data structures and algorithm problems in Python",
+    "language": "Java"
+  },
+  {
+    "name": "solutions-geoprocessing-toolbox",
+    "html_url": "https://github.com/Esri/solutions-geoprocessing-toolbox",
+    "description": "Models, scripts, and tools for use in ArcGIS Desktop and Server to support defense and intelligence workflows.",
+    "language": "Python"
+  },
+  {
+    "name": "solution",
+    "html_url": "https://github.com/vnspoj/solution",
+    "description": "💪 Serve static files solving problems 💪",
+    "language": "C++"
+  },
+  {
+    "name": "solution",
+    "html_url": "https://github.com/cladius/solution",
+    "description": "Repo of Code Gladiators Problems and Solutions",
+    "language": "Java"
+  },
+  {
+    "name": "Learn-Node",
+    "html_url": "https://github.com/wesbos/Learn-Node",
+    "description": "Starter Files + Stepped Solutions for the Learn Node course",
+    "language": "JavaScript"
+  },
+  {
+    "name": "CS50x_2021",
+    "html_url": "https://github.com/Mayconpm/CS50x_2021",
+    "description": "Harvard CS50x — 2021 solutions",
+    "language": "C"
+  },
+  {
+    "name": "WMPageController",
+    "html_url": "https://github.com/wangmchn/WMPageController",
+    "description": "An easy solution to page controllers like NetEase News",
+    "language": "Objective-C"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/awesee/leetcode",
+    "description": "LeetCode Problems' Solutions",
+    "language": "Go"
+  },
+  {
+    "name": "pilight",
+    "html_url": "https://github.com/pilight/pilight",
+    "description": "open source domotica solution",
+    "language": "C"
+  },
+  {
+    "name": "server",
+    "html_url": "https://github.com/triton-inference-server/server",
+    "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
+    "language": "Python"
+  },
+  {
+    "name": "Byte-by-Byte-Solutions",
+    "html_url": "https://github.com/samgh/Byte-by-Byte-Solutions",
+    "description": "Coding interview questions and solutions",
+    "language": "Java"
+  },
+  {
+    "name": "react-tutorial-solutions",
+    "html_url": "https://github.com/harman052/react-tutorial-solutions",
+    "description": "Solutions to additional problems given in React's \"tic tac toe\" tutorial.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "LeetCodeSolutions",
+    "html_url": "https://github.com/hqztrue/LeetCodeSolutions",
+    "description": "Theoretical solutions for LeetCode problems.",
+    "language": "C++"
+  },
+  {
+    "name": "DSA_questions-solutions",
+    "html_url": "https://github.com/MLSC-BSOITR/DSA_questions-solutions",
+    "description": "This repo contains different DSA questions related to different topic like array , matrices etc. and their solutions.",
+    "language": null
+  },
+  {
+    "name": "Product-Recommendations",
+    "html_url": "https://github.com/microsoft/Product-Recommendations",
+    "description": "Product Recommendations solution",
+    "language": "C#"
+  },
+  {
+    "name": "CPP-Questions-and-Solutions",
+    "html_url": "https://github.com/SarthakKeshari/CPP-Questions-and-Solutions",
+    "description": "This repository aims to solve and create new problems from different spheres of coding. A path to help students to get access to solutions and discuss their doubts. ",
+    "language": "C++"
+  },
+  {
+    "name": "sp-dev-fx-controls-react",
+    "html_url": "https://github.com/pnp/sp-dev-fx-controls-react",
+    "description": "Reusable React controls for SPFx solutions",
+    "language": "TypeScript"
+  },
+  {
+    "name": "7-billion-humans-solutions",
+    "html_url": "https://github.com/hingston/7-billion-humans-solutions",
+    "description": "Solutions for the game 7 Billion Humans",
+    "language": "Python"
+  },
+  {
+    "name": "Competitive_Programming_Solutions",
+    "html_url": "https://github.com/ankit039/Competitive_Programming_Solutions",
+    "description": ":wave: On here you can contribute your codes across the globe :smiley:",
+    "language": "C++"
+  },
+  {
+    "name": "CtCI-6th-Edition-cpp",
+    "html_url": "https://github.com/careercup/CtCI-6th-Edition-cpp",
+    "description": "Cracking the Coding Interview 6th Ed. C++ Solutions",
+    "language": "C++"
+  },
+  {
+    "name": "CSES-Solutions",
+    "html_url": "https://github.com/thcy/CSES-Solutions",
+    "description": "CSES Solutions",
+    "language": "C++"
+  },
+  {
+    "name": "mathsteps",
+    "html_url": "https://github.com/google/mathsteps",
+    "description": "Step by step math solutions for everyone",
+    "language": "JavaScript"
+  },
+  {
+    "name": "codility-java-solutions",
+    "html_url": "https://github.com/jmornar/codility-java-solutions",
+    "description": "Codility lessons solved in Java",
+    "language": "Java"
+  },
+  {
+    "name": "react-native-root-toast",
+    "html_url": "https://github.com/magicismight/react-native-root-toast",
+    "description": "react native toast like component, pure javascript solution",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Coderbyte-Solutions",
+    "html_url": "https://github.com/ZLester/Coderbyte-Solutions",
+    "description": "Step-by-step JavaScript Coderbyte problem solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "samples",
+    "html_url": "https://github.com/azure-ad-b2c/samples",
+    "description": "Azure AD B2C custom policy solutions and samples.",
+    "language": "HTML"
+  },
+  {
+    "name": "Codeforces",
+    "html_url": "https://github.com/Waqar-107/Codeforces",
+    "description": "codeforces solutions",
+    "language": "C++"
+  },
+  {
+    "name": "LeetcodeSolutions",
+    "html_url": "https://github.com/chaharnishant11/LeetcodeSolutions",
+    "description": "Solutions to Leetcode problems",
+    "language": "C++"
+  },
+  {
+    "name": "KnR-The-C-Programming-Language-Solutions",
+    "html_url": "https://github.com/thvdburgt/KnR-The-C-Programming-Language-Solutions",
+    "description": "My solutions to the exercises in the book \"The C Programming Language\" (2nd edition) by Brian W. Kernighan and Dennis M. Ritchie, also referred to as K&R.",
+    "language": "C"
+  },
+  {
+    "name": "html-sketchapp",
+    "html_url": "https://github.com/html-sketchapp/html-sketchapp",
+    "description": "HTML to Sketch export solution",
+    "language": "JavaScript"
+  },
+  {
+    "name": "kotlin-coding-challenges",
+    "html_url": "https://github.com/igorwojda/kotlin-coding-challenges",
+    "description": "🧩 Kotlin coding puzzle and solutions",
+    "language": "Kotlin"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/songron/leetcode",
+    "description": "My leetcode solutions.",
+    "language": "C++"
+  },
+  {
+    "name": "MLM-Solution",
+    "html_url": "https://github.com/voidnerd/MLM-Solution",
+    "description": "MLM solution built with Laravel",
+    "language": "PHP"
+  },
+  {
+    "name": "Learn-Redux-Starter-Files",
+    "html_url": "https://github.com/wesbos/Learn-Redux-Starter-Files",
+    "description": "⚛ Starter files and solutions for the LearnRedux.com video series",
+    "language": "JavaScript"
+  },
+  {
+    "name": "LeetCode-Java",
+    "html_url": "https://github.com/leetcoders/LeetCode-Java",
+    "description": "LeetCode Solutions By Java",
+    "language": "Java"
+  },
+  {
+    "name": "antd-admin",
+    "html_url": "https://github.com/zuiidea/antd-admin",
+    "description": "An excellent front-end solution for enterprise applications built upon Ant Design and UmiJS",
+    "language": "JavaScript"
+  },
+  {
+    "name": "carrierwave",
+    "html_url": "https://github.com/carrierwaveuploader/carrierwave",
+    "description": "Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks",
+    "language": "Ruby"
+  },
+  {
+    "name": "css_layout_exercises_starter_files",
+    "html_url": "https://github.com/Thinkful-Ed/css_layout_exercises_starter_files",
+    "description": "Solutions for CSS Layout Exercises",
+    "language": "HTML"
+  },
+  {
+    "name": "Discrete-time-Signal-Processing-Solution",
+    "html_url": "https://github.com/haozheji/Discrete-time-Signal-Processing-Solution",
+    "description": "Discrete-time Signal Processing 3rd edition (Oppenheim) ",
+    "language": null
+  },
+  {
+    "name": "HackerRank",
+    "html_url": "https://github.com/derekhh/HackerRank",
+    "description": "Solution to HackerRank problems",
+    "language": "C++"
+  },
+  {
+    "name": "flux-comparison",
+    "html_url": "https://github.com/voronianski/flux-comparison",
+    "description": ":pencil: Practical comparison of different Flux solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "the-c-programming-language-2nd-edition-solutions",
+    "html_url": "https://github.com/ohkimur/the-c-programming-language-2nd-edition-solutions",
+    "description": "Solutions to the exercises in the book \"The C Programming Language\" (2nd edition) by Brian W. Kernighan and Dennis M. Ritchie. This book is also referred to as K&R.",
+    "language": "C"
+  },
+  {
+    "name": "ijcai-2018",
+    "html_url": "https://github.com/plantsgo/ijcai-2018",
+    "description": "ijcai-2018 top1 solution",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "SolidInvoice",
+    "html_url": "https://github.com/SolidInvoice/SolidInvoice",
+    "description": "Simple and elegant invoicing solution.",
+    "language": "PHP"
+  },
+  {
+    "name": "HEVD-Python-Solutions",
+    "html_url": "https://github.com/GradiusX/HEVD-Python-Solutions",
+    "description": "Python solutions for the HackSysTeam Extreme Vulnerable Driver",
+    "language": "Python"
+  },
+  {
+    "name": "medium-editor",
+    "html_url": "https://github.com/yabwe/medium-editor",
+    "description": "Medium.com WYSIWYG editor clone. Uses contenteditable API to implement a rich text solution.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "hackerrank-solutions",
+    "html_url": "https://github.com/c650/hackerrank-solutions",
+    "description": "repository for the storage and display of solutions to various problems on HackerRank",
+    "language": "C++"
+  },
+  {
+    "name": "GoogleKickStart2020_Solutions",
+    "html_url": "https://github.com/BlankCoders/GoogleKickStart2020_Solutions",
+    "description": ":octocat: This repository will contain solutions of \"Google Kick Start 2020\" in C/C++/Java/Python. Archived now!",
+    "language": "Java"
+  },
+  {
+    "name": "greenDAO",
+    "html_url": "https://github.com/greenrobot/greenDAO",
+    "description": "greenDAO is a light & fast ORM solution for Android that maps objects to SQLite databases.",
+    "language": "Java"
+  },
+  {
+    "name": "Books-solutions",
+    "html_url": "https://github.com/Totoroz/Books-solutions",
+    "description": "Contains book exercises completed from various books",
+    "language": null
+  },
+  {
+    "name": "Multi-Selection",
+    "html_url": "https://github.com/Yalantis/Multi-Selection",
+    "description": "Multiselection Solution for Android in Kotlin",
+    "language": "Kotlin"
+  },
+  {
+    "name": "tanzu-validated-solutions",
+    "html_url": "https://github.com/vmware-tanzu-labs/tanzu-validated-solutions",
+    "description": "Tanzu Validated Solutions is a publicly-available repository for authoring, updating, and publishing reference architecture and validated solution materials for docs.vmware.com. This repository provides the feedback mechanism for continuous improvement of these assets.",
+    "language": "HCL"
+  },
+  {
+    "name": "ThinkPy-Solutions",
+    "html_url": "https://github.com/epequeno/ThinkPy-Solutions",
+    "description": "Solutions to selected problems from Think Python: How to Think Like a Computer Scientist http://greenteapress.com/thinkpython/html/index.html ",
+    "language": "Python"
+  },
+  {
+    "name": "Ecommerce-CodeIgniter-Bootstrap",
+    "html_url": "https://github.com/kirilkirkov/Ecommerce-CodeIgniter-Bootstrap",
+    "description": "Responsive, Multi-Vendor, MultiLanguage Online Store Platform (shopping cart solution)",
+    "language": "PHP"
+  },
+  {
+    "name": "go-leetcode",
+    "html_url": "https://github.com/hitzzc/go-leetcode",
+    "description": "Golang solution for leetcode",
+    "language": "Go"
+  },
+  {
+    "name": "codility-solutions-javascript",
+    "html_url": "https://github.com/yaseenshaik/codility-solutions-javascript",
+    "description": "Solutions for codility in javascript",
+    "language": null
+  },
+  {
+    "name": "LeetCodeSolutions",
+    "html_url": "https://github.com/nithin999989/LeetCodeSolutions",
+    "description": "Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "leetcode-js",
+    "html_url": "https://github.com/everthis/leetcode-js",
+    "description": "2000+ javascript solutions of leetcode problems.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Leetcode",
+    "html_url": "https://github.com/gaohannk/Leetcode",
+    "description": "Solution in Java",
+    "language": "Java"
+  },
+  {
+    "name": "cs50",
+    "html_url": "https://github.com/mareksuscak/cs50",
+    "description": "🎓 Harvard CS50x — 2018 solutions 👨‍🏫",
+    "language": "C"
+  },
+  {
+    "name": "Let-Us-C-Solutions",
+    "html_url": "https://github.com/hiverkiya/Let-Us-C-Solutions",
+    "description": "Solutions to Let Us C [15th Edition]",
+    "language": null
+  },
+  {
+    "name": "openemr",
+    "html_url": "https://github.com/openemr/openemr",
+    "description": "The most popular open source electronic health records and medical practice management solution.",
+    "language": "PHP"
+  },
+  {
+    "name": "leetcode-rust",
+    "html_url": "https://github.com/aylei/leetcode-rust",
+    "description": "my leetcode solutions in rust",
+    "language": "Rust"
+  },
+  {
+    "name": "libsu",
+    "html_url": "https://github.com/topjohnwu/libsu",
+    "description": "A complete solution for apps using root permissions",
+    "language": "Java"
+  },
+  {
+    "name": "smooth-scrollbar",
+    "html_url": "https://github.com/idiotWu/smooth-scrollbar",
+    "description": "Customizable, Extendable, and High-Performance JavaScript-Based Scrollbar Solution.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "solution-architectures",
+    "html_url": "https://github.com/mspnp/solution-architectures",
+    "description": "This content is referenced by Azure Architecture Center articles.",
+    "language": "Shell"
+  },
+  {
+    "name": "AWSAssociateSolutionsArchitectNotes",
+    "html_url": "https://github.com/Apjo/AWSAssociateSolutionsArchitectNotes",
+    "description": "AWS learning",
+    "language": null
+  },
+  {
+    "name": "probabilistic_robotics",
+    "html_url": "https://github.com/pptacher/probabilistic_robotics",
+    "description": "solution of exercises of the book \"probabilistic robotics\"",
+    "language": "C++"
+  },
+  {
+    "name": "opencart",
+    "html_url": "https://github.com/opencart/opencart",
+    "description": "A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.",
+    "language": "PHP"
+  },
+  {
+    "name": "LeetCodeSolutions",
+    "html_url": "https://github.com/Java-aid/LeetCodeSolutions",
+    "description": "This repository contains leetcode problem solutions",
+    "language": "Java"
+  },
+  {
+    "name": "gopl-solutions",
+    "html_url": "https://github.com/vinceyuan/gopl-solutions",
+    "description": "This repository contains the solutions of the exercises in the book Go Programming Language.",
+    "language": "Go"
+  },
+  {
+    "name": "rustgym",
+    "html_url": "https://github.com/warycat/rustgym",
+    "description": "Leetcode Solutions in Rust, Advent of Code Solutions in Rust and more",
+    "language": "Rust"
+  },
+  {
+    "name": "Reel",
+    "html_url": "https://github.com/pisi/Reel",
+    "description": "The premier 360° solution for jQuery.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "problem-solution",
+    "html_url": "https://github.com/shahidul2k9/problem-solution",
+    "description": "Problem solutions with DSA(Data Structure and Algorithm)",
+    "language": "C++"
+  },
+  {
+    "name": "asl-ml-immersion",
+    "html_url": "https://github.com/GoogleCloudPlatform/asl-ml-immersion",
+    "description": "This repos contains notebooks for the Advanced Solutions Lab: ML Immersion",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "quickstart-aws-vpc",
+    "html_url": "https://github.com/aws-quickstart/quickstart-aws-vpc",
+    "description": "Amazon Virtual Private Cloud—AWS Solution",
+    "language": null
+  },
+  {
+    "name": "codingbat-python-solutions",
+    "html_url": "https://github.com/diezguerra/codingbat-python-solutions",
+    "description": "CodingBat Python solutions",
+    "language": "Python"
+  },
+  {
+    "name": "open-solution-toxic-comments",
+    "html_url": "https://github.com/minerva-ml/open-solution-toxic-comments",
+    "description": "Open solution to the Toxic Comment Classification Challenge",
+    "language": "Python"
+  },
+  {
+    "name": "LeetCode",
+    "html_url": "https://github.com/yuzhangcmu/LeetCode",
+    "description": "LeetCode solutions written in Java",
+    "language": "Java"
+  },
+  {
+    "name": "Hackerrank-JavaScript-Solutions",
+    "html_url": "https://github.com/prabaprakash/Hackerrank-JavaScript-Solutions",
+    "description": "Solved entire Easy, few Medium Problems. A total of 171/563 challenges solved by JavaScript",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Introduction-to-Git-and-GitHub-by-Google-Coursera",
+    "html_url": "https://github.com/PaareshC/Introduction-to-Git-and-GitHub-by-Google-Coursera",
+    "description": "Solutions",
+    "language": null
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/lessfish/leetcode",
+    "description": "【NO LONGER UPDATE】:pencil2: LeetCode solutions with JavaScript",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Java-Questions-and-Solutions",
+    "html_url": "https://github.com/SarthakKeshari/Java-Questions-and-Solutions",
+    "description": "This repository aims to solve and create new problems from different spheres of coding. A path to help students to get access to solutions and discuss their doubts. ",
+    "language": "Java"
+  },
+  {
+    "name": "memos",
+    "html_url": "https://github.com/usememos/memos",
+    "description": "An open source, lightweight note-taking solution. The pain-less way to create your meaningful notes.",
+    "language": "Go"
+  },
+  {
+    "name": "InjectFix",
+    "html_url": "https://github.com/Tencent/InjectFix",
+    "description": "InjectFix is a hot-fix solution library for Unity",
+    "language": "C#"
+  },
+  {
+    "name": "All-Coding-Platform-Solutions",
+    "html_url": "https://github.com/av1shek/All-Coding-Platform-Solutions",
+    "description": "Repository accepting PR for Hactoberfest 2022",
+    "language": "C++"
+  },
+  {
+    "name": "CodinGame-Solutions",
+    "html_url": "https://github.com/pathosDev/CodinGame-Solutions",
+    "description": "Contains all my working solutions in C#/Java/Python for puzzles on https://www.codingame.com/.",
+    "language": "Java"
+  },
+  {
+    "name": "Algorithms_DPV_Solutions",
+    "html_url": "https://github.com/raymondhfeng/Algorithms_DPV_Solutions",
+    "description": "My solutions for Algorithms by Dasgupta, Papadimitriou, and Vazirani",
+    "language": "TeX"
+  },
+  {
+    "name": "leetcode-javascript",
+    "html_url": "https://github.com/BaffinLee/leetcode-javascript",
+    "description": "LeetCode javascript solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Automate-the-Boring-Stuff-with-Python-Solutions",
+    "html_url": "https://github.com/BrambleXu/Automate-the-Boring-Stuff-with-Python-Solutions",
+    "description": "Solutions for Automate the Boring Stuff with Python",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "ants",
+    "html_url": "https://github.com/panjf2000/ants",
+    "description": "🐜🐜🐜 ants is the most powerful and reliable pooling solution for Go.",
+    "language": "Go"
+  },
+  {
+    "name": "openflow",
+    "html_url": "https://github.com/open-rpa/openflow",
+    "description": "Scalable, secure workflow solution",
+    "language": "TypeScript"
+  },
+  {
+    "name": "coursera-deep-learning",
+    "html_url": "https://github.com/HeroKillerEver/coursera-deep-learning",
+    "description": "Solutions to all quiz and all the programming assignments!!!",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "unity-solutions",
+    "html_url": "https://github.com/FirebaseExtended/unity-solutions",
+    "description": "Use Firebase tools to incorporate common features into your games!",
+    "language": "C#"
+  },
+  {
+    "name": "ccf2016_sougou",
+    "html_url": "https://github.com/hengchao0248/ccf2016_sougou",
+    "description": "ccf2016 sougou final winner solution",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "flipt",
+    "html_url": "https://github.com/flipt-io/flipt",
+    "description": "Enterprise-ready, GitOps enabled, CloudNative feature management solution",
+    "language": "Go"
+  },
+  {
+    "name": "automation-api-community-solutions",
+    "html_url": "https://github.com/controlm/automation-api-community-solutions",
+    "description": "Control-M Automation API community solutions",
+    "language": "Python"
+  },
+  {
+    "name": "wordpress-comment-blacklist",
+    "html_url": "https://github.com/splorp/wordpress-comment-blacklist",
+    "description": "A simple solution for WordPress comment spam.",
+    "language": null
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/cnkyrpsgl/leetcode",
+    "description": "All Python solutions for Leetcode",
+    "language": "Python"
+  },
+  {
+    "name": "solutions_examples",
+    "html_url": "https://github.com/CiscoTestAutomation/solutions_examples",
+    "description": "pyATS example solutions for NetDevOps use cases",
+    "language": "Python"
+  },
+  {
+    "name": "spfx-solutions",
+    "html_url": "https://github.com/Puzzlepart/spfx-solutions",
+    "description": "Free SharePoint Framework solutions by Puzzlepart",
+    "language": "TypeScript"
+  },
+  {
+    "name": "gocoin",
+    "html_url": "https://github.com/piotrnar/gocoin",
+    "description": "Full bitcoin solution written in Go (golang)",
+    "language": "Go"
+  },
+  {
+    "name": "egjs-view360",
+    "html_url": "https://github.com/naver/egjs-view360",
+    "description": "360 integrated viewing solution",
+    "language": "TypeScript"
+  },
+  {
+    "name": "HackerRank",
+    "html_url": "https://github.com/sknsht/HackerRank",
+    "description": "My solutions to HackerRank problems",
+    "language": "Java"
+  },
+  {
+    "name": "BDCI2018-ChinauUicom-1st-solution",
+    "html_url": "https://github.com/PPshrimpGo/BDCI2018-ChinauUicom-1st-solution",
+    "description": "这是BDCI2018的联通赛题第一名解决方案",
+    "language": "Python"
+  },
+  {
+    "name": "Vue-Auth-Solution",
+    "html_url": "https://github.com/OneWayTech/Vue-Auth-Solution",
+    "description": "Vue 权限管理解决方案",
+    "language": null
+  },
+  {
+    "name": "gsnova",
+    "html_url": "https://github.com/yinqiwen/gsnova",
+    "description": "Private proxy solution & network troubleshooting tool.",
+    "language": "Go"
+  },
+  {
+    "name": "MODNet",
+    "html_url": "https://github.com/ZHKKKe/MODNet",
+    "description": "A Trimap-Free Portrait Matting Solution in Real Time [AAAI 2022]",
+    "language": "Python"
+  },
+  {
+    "name": "cses-problemset-solutions",
+    "html_url": "https://github.com/iamprayush/cses-problemset-solutions",
+    "description": "Solutions of the CSES Problem Set in C++",
+    "language": "C++"
+  },
+  {
+    "name": "colossus",
+    "html_url": "https://github.com/vitorfs/colossus",
+    "description": "Self-hosted email marketing solution",
+    "language": "Python"
+  },
+  {
+    "name": "linear-algebra-done-right-solutions",
+    "html_url": "https://github.com/celiopassos/linear-algebra-done-right-solutions",
+    "description": "Solutions to Linear Algebra Done Right, Third Edition",
+    "language": null
+  },
+  {
+    "name": "java-foundations-solutions",
+    "html_url": "https://github.com/NeutrinoSys/java-foundations-solutions",
+    "description": "Professional Java Developer Career Starter: Java Foundations Course Exercise Solutions",
+    "language": "Java"
+  },
+  {
+    "name": "BFEdevSolutions",
+    "html_url": "https://github.com/pinglu85/BFEdevSolutions",
+    "description": "Solutions to problems that I solved on bigfrontend.dev",
+    "language": null
+  },
+  {
+    "name": "HackerRank-Solutions-in-Python",
+    "html_url": "https://github.com/abrahamalbert18/HackerRank-Solutions-in-Python",
+    "description": "Some of the solutions to the python problems in Hackerrank are given below.",
+    "language": "Python"
+  },
+  {
+    "name": "CodeForces-Solutions",
+    "html_url": "https://github.com/virejdasani/CodeForces-Solutions",
+    "description": "Solutions to CodeForces ProblemSets",
+    "language": "C++"
+  },
+  {
+    "name": "Awesome_Machine_Learning_Solutions",
+    "html_url": "https://github.com/jalajthanaki/Awesome_Machine_Learning_Solutions",
+    "description": "A curated list of repositories for my book Machine Learning Solutions.",
+    "language": null
+  },
+  {
+    "name": "fortinet-azure-solutions",
+    "html_url": "https://github.com/40net-cloud/fortinet-azure-solutions",
+    "description": "A set of Azure Templates for getting you started in Azure with Fortinet solutions. This repository is a place for beta releases and work on the latest templates to be published on github.com/fortinet or custom templates.",
+    "language": "HCL"
+  },
+  {
+    "name": "Datacamp-Project-Solutions-R",
+    "html_url": "https://github.com/veeralakrishna/Datacamp-Project-Solutions-R",
+    "description": "Datacamp Portfolio Project Solutions-R Programming",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "KAGGLE_DISTRACTED_DRIVER",
+    "html_url": "https://github.com/ZFTurbo/KAGGLE_DISTRACTED_DRIVER",
+    "description": "Solutions",
+    "language": "Python"
+  },
+  {
+    "name": "awesome-golang-algorithm",
+    "html_url": "https://github.com/6boris/awesome-golang-algorithm",
+    "description": ":memo: LeetCode of algorithms with golang solution(updating).",
+    "language": "Go"
+  },
+  {
+    "name": "concrete_NLP_tutorial",
+    "html_url": "https://github.com/hundredblocks/concrete_NLP_tutorial",
+    "description": "An NLP workshop about concrete solutions to real problems",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/MohamedMetwalli5/LeetCode-Solutions",
+    "description": "✅🟨 These LeetCode solutions use both code and animations to address a wide range of problems.",
+    "language": "Java"
+  },
+  {
+    "name": "business-process-automation",
+    "html_url": "https://github.com/Azure/business-process-automation",
+    "description": "Business process automation solution accelerator using Azure services",
+    "language": "TypeScript"
+  },
+  {
+    "name": "20533-ImplementingMicrosoftAzureInfrastructureSolutions",
+    "html_url": "https://github.com/JasonHershey/20533-ImplementingMicrosoftAzureInfrastructureSolutions",
+    "description": "Labs for MOC 20533",
+    "language": "PowerShell"
+  },
+  {
+    "name": "CSES-Solutions",
+    "html_url": "https://github.com/TheAnshul756/CSES-Solutions",
+    "description": "Solutions and Editorials to all problems of CSES",
+    "language": "C++"
+  },
+  {
+    "name": "corda-training-solutions",
+    "html_url": "https://github.com/corda/corda-training-solutions",
+    "description": "Solutions for the two day Corda training",
+    "language": "Java"
+  },
+  {
+    "name": "Leetcode",
+    "html_url": "https://github.com/fishercoder1534/Leetcode",
+    "description": "Solutions to LeetCode problems; updated daily. Subscribe to my YouTube channel for more.",
+    "language": "Java"
+  },
+  {
+    "name": "alist",
+    "html_url": "https://github.com/alibaba/alist",
+    "description": "Alibaba Group Unified List Solution.",
+    "language": "TypeScript"
+  },
+  {
+    "name": "dae",
+    "html_url": "https://github.com/daeuniverse/dae",
+    "description": "eBPF-based Linux high-performance transparent proxy solution.",
+    "language": "Go"
+  },
+  {
+    "name": "media-analysis-solution",
+    "html_url": "https://github.com/awslabs/media-analysis-solution",
+    "description": "This Solutions Implementation has been superseded by AWS Content Analysis at https://aws.amazon.com/solutions/implementations/aws-content-analysis/.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Java-Solutions-TCS-IPA-Questions",
+    "html_url": "https://github.com/Arijit-SE/Java-Solutions-TCS-IPA-Questions",
+    "description": "Java Solutions of TCS IPA exam. 35 marks and 15 marks questions are solved.",
+    "language": "Java"
+  },
+  {
+    "name": "cookieconsent",
+    "html_url": "https://github.com/osano/cookieconsent",
+    "description": "A free solution to the EU, GDPR, and California Cookie Laws",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Jane-Street-Solutions",
+    "html_url": "https://github.com/gowen100/Jane-Street-Solutions",
+    "description": "Solutions to the Jane St monthly puzzles",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "full_stack_solutions",
+    "html_url": "https://github.com/Code-Institute-Org/full_stack_solutions",
+    "description": "Solutions to Code Institutes Full Stack Developer",
+    "language": "JavaScript"
+  },
+  {
+    "name": "dataconnect-solutions",
+    "html_url": "https://github.com/microsoftgraph/dataconnect-solutions",
+    "description": "Microsoft Graph Data Connect enables scaled access to Microsoft 365 data with fine grained consent model, integrated with compliance and governance, to enable analytics and big data applications on the largest productivity platform.  ",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "solutions-modern-cicd-anthos",
+    "html_url": "https://github.com/GoogleCloudPlatform/solutions-modern-cicd-anthos",
+    "description": "An end-to-end operating model for onboarding and continually deploying services with Anthos.",
+    "language": "Go"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/hongbo-miao/leetcode",
+    "description": "LeetCode solutions",
+    "language": "Python"
+  },
+  {
+    "name": "router5",
+    "html_url": "https://github.com/router5/router5",
+    "description": "Flexible and powerful universal routing solution",
+    "language": "TypeScript"
+  },
+  {
+    "name": "transformers-bloom-inference",
+    "html_url": "https://github.com/huggingface/transformers-bloom-inference",
+    "description": "Fast Inference Solutions for BLOOM",
+    "language": "Python"
+  },
+  {
+    "name": "unreal.lua",
+    "html_url": "https://github.com/asqbtcupid/unreal.lua",
+    "description": "lua solution for UnrealEngine4",
+    "language": "C++"
+  },
+  {
+    "name": "leetcode-js",
+    "html_url": "https://github.com/paopao2/leetcode-js",
+    "description": "Javascript solutions for Leetcode problems",
+    "language": "JavaScript"
+  },
+  {
+    "name": "GFG-SDE-Sheet-Solution-Kit",
+    "html_url": "https://github.com/GFGSC-RTU/GFG-SDE-Sheet-Solution-Kit",
+    "description": "It is an open-source repository which contains the solution of GFG SDE Sheet.",
+    "language": "C++"
+  },
+  {
+    "name": "daily-coding-problem",
+    "html_url": "https://github.com/subsr97/daily-coding-problem",
+    "description": "Solutions for Daily Coding Problem.",
+    "language": "Python"
+  },
+  {
+    "name": "RapidFloatingActionButton",
+    "html_url": "https://github.com/wangjiegulu/RapidFloatingActionButton",
+    "description": "Quick solutions for Floating Action Button，RapidFloatingActionButton（RFAB）",
+    "language": "Java"
+  },
+  {
+    "name": "MessengerJS",
+    "html_url": "https://github.com/biqing/MessengerJS",
+    "description": "A common solution for cross-document communication .",
+    "language": "HTML"
+  },
+  {
+    "name": "blog-app-mongoose-challenge-solution",
+    "html_url": "https://github.com/Thinkful-Ed/blog-app-mongoose-challenge-solution",
+    "description": "Starter files for challenge in Thinkful's Node course",
+    "language": "JavaScript"
+  },
+  {
+    "name": "pwa-module",
+    "html_url": "https://github.com/nuxt-community/pwa-module",
+    "description": "Zero config PWA solution for Nuxt.js",
+    "language": "TypeScript"
+  },
+  {
+    "name": "coding-interview-gym",
+    "html_url": "https://github.com/partho-maple/coding-interview-gym",
+    "description": "leetcode.com , algoexpert.io solutions in python and swift",
+    "language": "Python"
+  },
+  {
+    "name": "Remotely",
+    "html_url": "https://github.com/immense/Remotely",
+    "description": "A remote control and remote scripting solution, built with .NET 8, Blazor, and SignalR.",
+    "language": "C#"
+  },
+  {
+    "name": "Leetcode-Solutions-with-Java-And-Kotlin",
+    "html_url": "https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin",
+    "description": "LeetCode 系列题解, 在线阅读 https://offer.hi-dhl.com",
+    "language": "Kotlin"
+  },
+  {
+    "name": "EPI-Python-Solution",
+    "html_url": "https://github.com/coldmanck/EPI-Python-Solution",
+    "description": "Solutions to \"Elements of Programming Interviews in Python: The Insiders' Guide\"",
+    "language": "Python"
+  },
+  {
+    "name": "skeleton",
+    "html_url": "https://github.com/skeletonlabs/skeleton",
+    "description": "A complete design system and component solution, built on Tailwind.",
+    "language": "Svelte"
+  },
+  {
+    "name": "confide",
+    "html_url": "https://github.com/Zizaco/confide",
+    "description": "Confide is a authentication solution for Laravel 4",
+    "language": "PHP"
+  },
+  {
+    "name": "dfdc_deepfake_challenge",
+    "html_url": "https://github.com/selimsef/dfdc_deepfake_challenge",
+    "description": "A prize winning solution for DFDC challenge",
+    "language": "Python"
+  },
+  {
+    "name": "Soluciones-Klenberg",
+    "html_url": "https://github.com/mathiasuy/Soluciones-Klenberg",
+    "description": "Algorithm Design (Kleinberg Tardos 2005) - Solutions",
+    "language": null
+  },
+  {
+    "name": "daily-coding-problem",
+    "html_url": "https://github.com/ngiengkianyew/daily-coding-problem",
+    "description": "Solutions to problems sent by dailycodingproblem.com",
+    "language": "Python"
+  },
+  {
+    "name": "MobileFace",
+    "html_url": "https://github.com/becauseofAI/MobileFace",
+    "description": "A face recognition solution on mobile device.",
+    "language": "Python"
+  },
+  {
+    "name": "HackerRank-Solution",
+    "html_url": "https://github.com/sword-jin/HackerRank-Solution",
+    "description": ":+1: HackerRank Solution",
+    "language": "C++"
+  },
+  {
+    "name": "LeetCode",
+    "html_url": "https://github.com/huanminwu/LeetCode",
+    "description": "LeetCode C++ solution",
+    "language": "C++"
+  },
+  {
+    "name": "spline",
+    "html_url": "https://github.com/AbsaOSS/spline",
+    "description": "Data Lineage Tracking And Visualization Solution",
+    "language": "Scala"
+  },
+  {
+    "name": "flux2",
+    "html_url": "https://github.com/fluxcd/flux2",
+    "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+    "language": "Go"
+  },
+  {
+    "name": "LeetCode-in-Go",
+    "html_url": "https://github.com/aQuaYi/LeetCode-in-Go",
+    "description": "Go Solution for LeetCode algorithms problems, 100% coverage.",
+    "language": "Go"
+  },
+  {
+    "name": "reactGo",
+    "html_url": "https://github.com/reactGo/reactGo",
+    "description": "Your One-Stop solution for a full-stack universal Redux App!",
+    "language": "TypeScript"
+  },
+  {
+    "name": "sectalks",
+    "html_url": "https://github.com/sectalks/sectalks",
+    "description": "CTFs, solutions and presentations",
+    "language": "HTML"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/Architgupta001/LeetCode-Solutions",
+    "description": "Read the rules.md file and start contributing GOOD LUCK !!!",
+    "language": "C++"
+  },
+  {
+    "name": "clrs4e-solutions",
+    "html_url": "https://github.com/wojtask/clrs4e-solutions",
+    "description": "Solutions to exercises and problems from \"Introduction to Algorithms\", Fourth Edition by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein",
+    "language": "TeX"
+  },
+  {
+    "name": "chatgpt-web-share",
+    "html_url": "https://github.com/chatpire/chatgpt-web-share",
+    "description": "ChatGPT Plus 共享方案。ChatGPT Plus / OpenAI API sharing solution.",
+    "language": "Vue"
+  },
+  {
+    "name": "LeetCode",
+    "html_url": "https://github.com/MaskRay/LeetCode",
+    "description": "Solutions of LeetCode Online Judge",
+    "language": "C++"
+  },
+  {
+    "name": "Recommender-Systems-Competition-TopSolutions",
+    "html_url": "https://github.com/ChuanyuXue/Recommender-Systems-Competition-TopSolutions",
+    "description": "推荐系统竞赛TOP开源解决方案汇总。",
+    "language": null
+  },
+  {
+    "name": "SamsungSolutions",
+    "html_url": "https://github.com/chaharnishant11/SamsungSolutions",
+    "description": "This includes the solution to popular Samsung Competency test Questions",
+    "language": "C++"
+  },
+  {
+    "name": "psitransfer",
+    "html_url": "https://github.com/psi-4ward/psitransfer",
+    "description": "Simple open source self-hosted file sharing solution.  ",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Lane-Segmentation-Solution-For-BaiduAI-Autonomous-Driving-Competition",
+    "html_url": "https://github.com/gujingxiao/Lane-Segmentation-Solution-For-BaiduAI-Autonomous-Driving-Competition",
+    "description": "Lane Segmentation Solution for Baidu AI PaddlePaddle Autonomous Driving Competition(1st Place)",
+    "language": "Python"
+  },
+  {
+    "name": "DailyCodingProblem",
+    "html_url": "https://github.com/oleg-cherednik/DailyCodingProblem",
+    "description": "Daily Coding Problem solutions",
+    "language": "Java"
+  },
+  {
+    "name": "LeetCode-Sol-Res",
+    "html_url": "https://github.com/FreeTymeKiyan/LeetCode-Sol-Res",
+    "description": "Clean, Understandable Solutions and Resources for LeetCode Online Judge Algorithm Problems. ",
+    "language": "Java"
+  },
+  {
+    "name": "Crash-Course-on-Python-by-Google",
+    "html_url": "https://github.com/zaahidali/Crash-Course-on-Python-by-Google",
+    "description": "Quiz solution for this course",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "azure-iot-remote-monitoring",
+    "html_url": "https://github.com/Azure/azure-iot-remote-monitoring",
+    "description": "Azure IoT Remote Monitoring preconfigured solution",
+    "language": "C#"
+  },
+  {
+    "name": "blackduck-alert",
+    "html_url": "https://github.com/blackducksoftware/blackduck-alert",
+    "description": "Processes notifications from BlackDuck and sends them to supported distribution channels",
+    "language": "Java"
+  },
+  {
+    "name": "nice-validator",
+    "html_url": "https://github.com/niceue/nice-validator",
+    "description": "Simple, smart and pleasant validation solution.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Ninety-Nine-Swift-Solutions",
+    "html_url": "https://github.com/eneko/Ninety-Nine-Swift-Solutions",
+    "description": "Community solutions for the Ninety-Nine Swift Problems (http://enekoalonso.com/projects/99-swift-problems)",
+    "language": "Swift"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/gzc/leetcode",
+    "description": "LeetCode solutions.",
+    "language": "C++"
+  },
+  {
+    "name": "Azure-Lighthouse-samples",
+    "html_url": "https://github.com/Azure/Azure-Lighthouse-samples",
+    "description": "Provide samples for understanding managed service solutions",
+    "language": "PowerShell"
+  },
+  {
+    "name": "conjure-up",
+    "html_url": "https://github.com/conjure-up/conjure-up",
+    "description": "Deploying complex solutions, magically.",
+    "language": "Python"
+  },
+  {
+    "name": "textbook-solutions",
+    "html_url": "https://github.com/cs3110/textbook-solutions",
+    "description": "Solutions to OCaml Programming",
+    "language": "OCaml"
+  },
+  {
+    "name": "code",
+    "html_url": "https://github.com/cosdensolutions/code",
+    "description": "Source code for all Cosden Solutions videos",
+    "language": "TypeScript"
+  },
+  {
+    "name": "aws-connected-vehicle-solution",
+    "html_url": "https://github.com/aws-solutions/aws-connected-vehicle-solution",
+    "description": "The AWS Connected Vehicle Solution is a reference implementation that provides a foundation for automotive product transformations for connected vehicle services, autonomous driving, electric powertrains, and shared mobility.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "mvcarchitecture",
+    "html_url": "https://github.com/chsakell/mvcarchitecture",
+    "description": "ASP.NET MVC Solution Architecture – Best Practices",
+    "language": "C#"
+  },
+  {
+    "name": "LeetCode-Problems-Solution-Book",
+    "html_url": "https://github.com/piyushsharma220699/LeetCode-Problems-Solution-Book",
+    "description": "REPOSITORY EXCLUDED FROM HACKTOBERFEST 2021, CHECK THIS : https://github.com/piyushsharma220699/Hacktoberfest-2021/issues/261",
+    "language": "C++"
+  },
+  {
+    "name": "Azure-Solutions-Architect-Expert-Exam",
+    "html_url": "https://github.com/shrasool/Azure-Solutions-Architect-Expert-Exam",
+    "description": "Prep material for AZ-300 and AZ-301 new Microsoft Azure exams",
+    "language": null
+  },
+  {
+    "name": "DSA",
+    "html_url": "https://github.com/Sagar0-0/DSA",
+    "description": "Building the largest DSA solutions repository TOGETHER.",
+    "language": "Java"
+  },
+  {
+    "name": "azurechat",
+    "html_url": "https://github.com/microsoft/azurechat",
+    "description": "🤖 💼  Azure Chat Solution Accelerator powered by Azure Open AI Service",
+    "language": "TypeScript"
+  },
+  {
+    "name": "Online3DViewer",
+    "html_url": "https://github.com/kovacsv/Online3DViewer",
+    "description": "A solution to visualize and explore 3D models in your browser.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "algoexpert-solutions",
+    "html_url": "https://github.com/drmacsika/algoexpert-solutions",
+    "description": "Discover solutions to algoexpert problems in six programming languages: Python, Java, Go, C++, C#, and JavaScript/TypeScript",
+    "language": "Go"
+  },
+  {
+    "name": "AWS-Solutions-Architect-Certification",
+    "html_url": "https://github.com/helalaoui/AWS-Solutions-Architect-Certification",
+    "description": "Study Notes for the AWS Certified Solutions Architect Professional Exam",
+    "language": null
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/lennylxx/leetcode",
+    "description": "Pure C solution for LeetCode",
+    "language": "C"
+  },
+  {
+    "name": "ultisnips",
+    "html_url": "https://github.com/SirVer/ultisnips",
+    "description": "UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!",
+    "language": "Python"
+  },
+  {
+    "name": "LeetHub",
+    "html_url": "https://github.com/QasimWani/LeetHub",
+    "description": "Automatically sync your leetcode solutions to your github account - top 5 trending GitHub repository",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Landmark2019-1st-and-3rd-Place-Solution",
+    "html_url": "https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution",
+    "description": "The 1st Place Solution of the Google Landmark 2019 Retrieval Challenge and the 3rd Place Solution of the Recognition Challenge.",
+    "language": "Python"
+  },
+  {
+    "name": "Kaggle-Carvana-3rd-Place-Solution",
+    "html_url": "https://github.com/lyakaap/Kaggle-Carvana-3rd-Place-Solution",
+    "description": "3rd place solution ( Carvana Image Masking Challenge )",
+    "language": "Python"
+  },
+  {
+    "name": "coderbyte-solution",
+    "html_url": "https://github.com/Liangmp/coderbyte-solution",
+    "description": "solutions for coderbyte coding challenges",
+    "language": "Python"
+  },
+  {
+    "name": "coding-questions",
+    "html_url": "https://github.com/checkcheckzz/coding-questions",
+    "description": "Coding interview questions with solutions (deprecated)",
+    "language": "C++"
+  },
+  {
+    "name": "Instacart",
+    "html_url": "https://github.com/KazukiOnodera/Instacart",
+    "description": "2nd place solution🥕🥈",
+    "language": "Python"
+  },
+  {
+    "name": "imagestore",
+    "html_url": "https://github.com/hovel/imagestore",
+    "description": "Django gallery solution.",
+    "language": "Python"
+  },
+  {
+    "name": "CS50x",
+    "html_url": "https://github.com/csfive/CS50x",
+    "description": "🦍 Harvard CS50x Solutions",
+    "language": "C"
+  },
+  {
+    "name": "LeetCode-Solutions",
+    "html_url": "https://github.com/RajkumarSony/LeetCode-Solutions",
+    "description": "About Submit Just 4 PRs to earn SWAGS and Tshirts🎉",
+    "language": "JavaScript"
+  },
+  {
+    "name": "AWS_SolutionArchitect",
+    "html_url": "https://github.com/onlineTrainingguy/AWS_SolutionArchitect",
+    "description": "AwsSolutionArchitect",
+    "language": "Python"
+  },
+  {
+    "name": "freeipa",
+    "html_url": "https://github.com/freeipa/freeipa",
+    "description": "Mirror of FreeIPA, an integrated security information management solution",
+    "language": "Python"
+  },
+  {
+    "name": "Awesome-TTRSS",
+    "html_url": "https://github.com/HenryQW/Awesome-TTRSS",
+    "description": "🐋 Awesome TTRSS, a powerful Dockerised all-in-one RSS solution.",
+    "language": "PHP"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/azl397985856/leetcode",
+    "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+    "language": "JavaScript"
+  },
+  {
+    "name": "learn-git-branching-solutions",
+    "html_url": "https://github.com/saivittalb/learn-git-branching-solutions",
+    "description": "📚 Solutions to each and every problem available on Learn Git Branching.",
+    "language": null
+  },
+  {
+    "name": "open-solution-salt-identification",
+    "html_url": "https://github.com/neptune-ai/open-solution-salt-identification",
+    "description": "Open solution to the TGS Salt Identification Challenge",
+    "language": "Python"
+  },
+  {
+    "name": "awesome-humane-tech",
+    "html_url": "https://github.com/humanetech-community/awesome-humane-tech",
+    "description": "Promoting Solutions that Improve Wellbeing, Freedom and Society",
+    "language": null
+  },
+  {
+    "name": "mistat-code-solutions",
+    "html_url": "https://github.com/gedeck/mistat-code-solutions",
+    "description": "Code repository for \"Modern Statistics: A Computer Based Approach with Python\" and \"Industrial Statistics: A Computer Based Approach with Python\"",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "slngen",
+    "html_url": "https://github.com/microsoft/slngen",
+    "description": "Visual Studio solution generator",
+    "language": "C#"
+  },
+  {
+    "name": "sicp-solutions.net",
+    "html_url": "https://github.com/sgignoux/sicp-solutions.net",
+    "description": "Used to be codology.net",
+    "language": "Scheme"
+  },
+  {
+    "name": "Cognizant_Early_Engagement",
+    "html_url": "https://github.com/cybernobie/Cognizant_Early_Engagement",
+    "description": "Solutions for the Cognizant Early Engagement learning platform.",
+    "language": "Java"
+  },
+  {
+    "name": "Solution-Starter-Kit-Cooperation-2020",
+    "html_url": "https://github.com/Call-for-Code/Solution-Starter-Kit-Cooperation-2020",
+    "description": "Materials for the Call for Code 2020 solution starter kit for community collaboration in the context of COVID-19.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "HackerRank",
+    "html_url": "https://github.com/alexprut/HackerRank",
+    "description": "🍒 Solution to HackerRank problems",
+    "language": "Java"
+  },
+  {
+    "name": "azure-cross-solution-network-architectures",
+    "html_url": "https://github.com/nehalineogi/azure-cross-solution-network-architectures",
+    "description": "This is a repo of cross solution network designs with Azure PaaS and on-premise connectivity",
+    "language": "Bicep"
+  },
+  {
+    "name": "jvm-sandbox-repeater",
+    "html_url": "https://github.com/alibaba/jvm-sandbox-repeater",
+    "description": " A Java server-side recording and playback solution based on JVM-Sandbox",
+    "language": "Java"
+  },
+  {
+    "name": "codesignal-my-solutions",
+    "html_url": "https://github.com/dvitsios/codesignal-my-solutions",
+    "description": "Solutions in Python from CodeSignal problems & Bots",
+    "language": "Python"
+  },
+  {
+    "name": "Codility",
+    "html_url": "https://github.com/Mickey0521/Codility",
+    "description": "My Solutions to Codility (100% performance) ",
+    "language": "Java"
+  },
+  {
+    "name": "project.nvim",
+    "html_url": "https://github.com/ahmedkhalf/project.nvim",
+    "description": "The superior project management solution for neovim.",
+    "language": "Lua"
+  },
+  {
+    "name": "PINNs",
+    "html_url": "https://github.com/maziarraissi/PINNs",
+    "description": "Physics Informed Deep Learning: Data-driven Solutions and Discovery of Nonlinear Partial Differential Equations",
+    "language": "Python"
+  },
+  {
+    "name": "aws-sa-associate-saac02",
+    "html_url": "https://github.com/acantril/aws-sa-associate-saac02",
+    "description": "Course Files for AWS Certified Solutions Architect Certification Course (SAAC02) - Adrian Cantrill",
+    "language": "HTML"
+  },
+  {
+    "name": "RL-Solutions",
+    "html_url": "https://github.com/finint/RL-Solutions",
+    "description": "强化学习第二版习题解答与代码案例 Solutions and codes for Reinforcement Learning second edition",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "gsf",
+    "html_url": "https://github.com/GridProtectionAlliance/gsf",
+    "description": "Grid Solutions Framework",
+    "language": "C#"
+  },
+  {
+    "name": "Cpp-Primer-5th-Exercises",
+    "html_url": "https://github.com/jaege/Cpp-Primer-5th-Exercises",
+    "description": "Solutions to Exercises in C++ Primer 5th Edition",
+    "language": "C++"
+  },
+  {
+    "name": "Riptide",
+    "html_url": "https://github.com/RiptideNetworking/Riptide",
+    "description": "Lightweight C# networking solution for multiplayer games.",
+    "language": "C#"
+  },
+  {
+    "name": "leetcode",
+    "html_url": "https://github.com/xcatliu/leetcode",
+    "description": "My LeetCode Solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "nd9991-c2-Infrastructure-as-Code-v1-Exercises_Solution",
+    "html_url": "https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1-Exercises_Solution",
+    "description": "This repository contains the solution to the exercises given in the last concept of each Lesson 1 to Lesson 5. ",
+    "language": null
+  },
+  {
+    "name": "LintCode-1",
+    "html_url": "https://github.com/terrytong0876/LintCode-1",
+    "description": "Java Solutions to problems on LintCode",
+    "language": "Java"
+  },
+  {
+    "name": "hiddify.com",
+    "html_url": "https://github.com/hiddify/hiddify.com",
+    "description": "Hiddify | Internet Freedom Solution",
+    "language": "HTML"
+  },
+  {
+    "name": "TouchScript",
+    "html_url": "https://github.com/TouchScript/TouchScript",
+    "description": "Complete multi-touch solution for Unity: iOS, Android, Windows, TUIO.",
+    "language": "C#"
+  },
+  {
+    "name": "algorithms_solutions",
+    "html_url": "https://github.com/harunawaizumi/algorithms_solutions",
+    "description": "Grokking algorithms & Cracking Coding Interview Solution in Javascript",
+    "language": "JavaScript"
+  },
+  {
+    "name": "DataCleaner",
+    "html_url": "https://github.com/datacleaner/DataCleaner",
+    "description": "The premier open source Data Quality solution",
+    "language": "Java"
+  },
+  {
+    "name": "aws-sa-pro",
+    "html_url": "https://github.com/acantril/aws-sa-pro",
+    "description": "Course Files for AWS Certified Solutions Architect - Professional - Adrian Cantrill",
+    "language": "Shell"
+  },
+  {
+    "name": "hackerrankSolutions-JavaScript",
+    "html_url": "https://github.com/aditiraj/hackerrankSolutions-JavaScript",
+    "description": "my hackerrank solutions",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Solutions-to-Data-Structures-and-Algorithms-in-Python",
+    "html_url": "https://github.com/wdlcameron/Solutions-to-Data-Structures-and-Algorithms-in-Python",
+    "description": "[My Solutions] Data Structures and Algorithms in Python (Michael T. Goodrich)",
+    "language": "Jupyter Notebook"
+  },
+  {
+    "name": "eopl",
+    "html_url": "https://github.com/chenyukang/eopl",
+    "description": "my solutions to EOPL3",
+    "language": "Scheme"
+  },
+  {
+    "name": "adv-r-book-solutions",
+    "html_url": "https://github.com/peterhurford/adv-r-book-solutions",
+    "description": "Solutions for the Advanced R Development book",
+    "language": "R"
+  },
+  {
+    "name": "Cracking-the-Coding-Interview-Javascript-Solutions-CTCI",
+    "html_url": "https://github.com/harryttd/Cracking-the-Coding-Interview-Javascript-Solutions-CTCI",
+    "description": " Cracking the Coding Interview (CTCI) Javascript Solutions with Tests",
+    "language": "JavaScript"
+  },
+  {
+    "name": "binary-auditing-solutions",
+    "html_url": "https://github.com/LordNoteworthy/binary-auditing-solutions",
+    "description": "Learn the fundamentals of Binary Auditing. Know how HLL mapping works, get more inner file understanding than ever.",
+    "language": null
+  },
+  {
+    "name": "react-admin",
+    "html_url": "https://github.com/yezihaohao/react-admin",
+    "description": ":sparkles: react-admin system solution : react 后台管理系统解决方案",
+    "language": "TypeScript"
+  },
+  {
+    "name": "CtCI-6th-Edition-JavaScript-ES2015",
+    "html_url": "https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015",
+    "description": "Cracking the Coding Interview 6th Ed. JavaScript ES2015 Solutions",
+    "language": "JavaScript"
+  }
+]

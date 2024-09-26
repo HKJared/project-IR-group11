@@ -4,6 +4,12 @@
     --color-primary-blue: #4493f8;
     --color-secondary-white: #f2f2f2;
     --color-secondary-black: #0d1117;
+    --color-grey-100: #f5f4f7;
+    --color-grey-200: #f6f3f7;
+    --color-grey-300: #e9e6e9;
+    --color-grey-400: #dbd8db;
+    --color-grey-500: #bfbfbf;
+    --color-grey-600: #908c95;
 }
 
 body {
@@ -11,6 +17,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background: var(--color-secondary-black);
+    font-family: 'Inter', sans-serif;
 }
 
 .blur {
@@ -53,8 +60,8 @@ body {
 }
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;    
+    padding-left: .75rem;
+    padding-right: .75rem;    
 }
 
 .section {
@@ -97,4 +104,10 @@ body {
 
 .gap-24 {
     gap: 24px;
+}
+
+a, button, select {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-primary-white);
 }

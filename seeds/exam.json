@@ -1,0 +1,9 @@
+[
+  {
+    "title": "208. Chuyển mảng thành chuỗi tăng dần (Code 71)",
+    "category": "Tổng hợp",
+    "difficulty": "Khó",
+    "description": "Cho trước mảng chứa các số nguyên arrInt (tồn tại ít nhất một phần tử). Bạn hãy viết chương trình để in ra chuỗi bằng cách kết hợp các phần tử trong mảng arrInt theo thứ tự giá trị tăng dần",
+    "demo": "<table class=\"table overflow-auto zvn-exercise-item\"><thead class=\"thead-light\"><tr><th scope=\"col\" class=\"bg-dark text-warning w-50 p-3 font-weight-bold\">Input</th><th scope=\"col\" class=\"bg-dark text-warning w-50 p-3 font-weight-bold\">Output</th></tr></thead><tbody style=\"border-bottom: 1px solid #dee2e6;\"><tr style=\"border-left: 1px solid #dee2e6; background: #272822\"><td class=\"w-50 p-0\"><pre><code class=\"language-javascript\">arrInt = [1,2,3,2]</code></pre></td><td class=\"w-50 p-0\"><pre><code class=\"language-html\">1-2-2-3</code></pre></td></tr><tr style=\"border-left: 1px solid #dee2e6; background: #272822\"><td class=\"w-50 p-0\"><pre><code class=\"language-javascript\">arrInt = [3,4,9]</code></pre></td><td class=\"w-50 p-0\"><pre><code class=\"language-html\">3-4-9</code></pre></td></tr><tr style=\"border-left: 1px solid #dee2e6; background: #272822\"><td class=\"w-50 p-0\"><pre><code class=\"language-javascript\">arrInt = [8,3,8,3]</code></pre></td><td class=\"w-50 p-0\"><pre><code class=\"language-html\">3-3-8-8</code></pre></td></tr><tr style=\"border-left: 1px solid #dee2e6; background: #272822\"><td class=\"w-50 p-0\"><pre><code class=\"language-javascript\">arrInt = [1,1,1,1]</code></pre></td><td class=\"w-50 p-0\"><pre><code class=\"language-html\">1-1-1-1</code></pre></td></tr></tbody></table>"
+  }
+]

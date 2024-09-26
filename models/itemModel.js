@@ -1,4 +1,4 @@
-const pool = require('../config/database'); // Đảm bảo bạn đã cấu hình pool kết nối DB
+const pool = require('../configs/connectDB'); // Đảm bảo bạn đã cấu hình pool kết nối DB
 
 class ItemModel {
     // Hàm thêm project từ thư mục uploads vào DB

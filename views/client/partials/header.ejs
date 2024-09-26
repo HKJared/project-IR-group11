@@ -1,11 +1,19 @@
 <link rel="stylesheet" href="/css/client/header.css">
-<header>
-    <div class="limit-view row flex-box">
-        <div class="logo center">
-            <img src="/images/logo.png" alt="">
+<header class="center">
+    <div class="limit-view row container flex-box">
+        <a href="/" class="logo center">
+            <div class="full-height">
+                <img src="/images/logo.png" alt="">
+            </div>
+        </a>
+        <div class="search-container row item-center">
+            <form action="" id="search_form">
+                <input type="text" id="search_text">
+                <button type="submit" class="center"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
         </div>
-        <div class="search-container">
-            
+        <div class="user__container center">
+            <a href="" class="spa-action">Login</a>
         </div>
     </div>
 </header>

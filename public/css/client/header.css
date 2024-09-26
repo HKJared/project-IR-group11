@@ -1,0 +1,40 @@
+header {
+    height: 76px;
+    background-color: var(--color-primary-black);
+}
+
+header .logo {
+    height: 46px;
+    width: 150px;
+}
+
+#search_form {
+    position: relative;
+}
+
+#search_form input {
+    width: 690px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid var(--color-grey-500);
+    background-color: transparent;
+    font-size: 16px;
+    color: var(--color-primary-white);
+    padding: 0 40px 0 12px;
+}
+
+#search_form input:focus {
+    outline: none;
+}
+
+#search_form button {
+    position: absolute;
+    height: 46px;
+    width: 46px;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    color: var(--color-primary-white);
+}
