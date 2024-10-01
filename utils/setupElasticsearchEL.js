@@ -9,7 +9,7 @@ const data = fs.readFileSync(dataPath, 'utf-8');
 const esClient = new Client({
     node: 'http://localhost:9200',
     auth: {
-        username: 'elastic',
+        username: process.env.ELASTIC_USERNAME,
         password: process.env.ELASTIC_PASSWORD,
     },
 });

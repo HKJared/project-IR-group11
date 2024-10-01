@@ -1,8 +1,8 @@
 const ItemModel = require('../../models/itemModel'); // Import model
 const fs = require('fs');
 const path = require('path');
-// const { initializeElastic, esClient } = require('../../utils/setupElasticsearch');
-const { initializeElastic, esClient } = require('../../utils/setupElasticsearchEL');
+const { initializeElastic, esClient } = require('../../utils/setupElasticsearch');
+// const { initializeElastic, esClient } = require('../../utils/setupElasticsearchEL');
 
 class examController {
     static async search(req, res) {
@@ -25,13 +25,20 @@ class examController {
                     match_all: {}
                 };
             } else {
-                // Thực hiện tìm kiếm trên nhiều trường khi có từ khóa
+                // Thực hiện tìm kiếm với keyword đã chuẩn hóa
                 query = {
                     bool: {
-                        should: [
+                        should: [                            
                             { match: { title: keyword } },
+                            { match: { description: keyword } },
                             { match: { code: keyword } },
-                            { match: { description: keyword } }
+                            { match: { 'title_no_accent': keyword } },
+                            { match: { 'description_no_accent': keyword } },
+                            { match: { 'code_no_accent': keyword } },
+                            { match: { 'title_bigram': keyword } },
+                            { match: { 'description_bigram': keyword } },
+                            { match: { 'code_bigram': keyword } },
+                            { match: { combined_field: keyword } }, // Truy vấn vào trường kết hợp
                         ]
                     }
                 };
@@ -51,7 +58,7 @@ class examController {
                 id: hit._id,
                 ...hit._source,
             }));
-
+    
             // Tính toán tổng số trang
             const totalItems = response.hits.total.value; // Tổng số mục
             const totalPages = Math.ceil(totalItems / itemsPerPage); // Tổng số trang
@@ -67,7 +74,7 @@ class examController {
             console.error(err);
             res.status(500).send(err);
         }
-    }    
+    }     
 }
 
 

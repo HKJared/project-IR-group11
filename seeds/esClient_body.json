@@ -1,0 +1,96 @@
+{
+  "exams" : {
+    "aliases" : { },
+    "mappings" : {
+      "properties" : {
+        "code" : {
+          "type" : "keyword"
+        },
+        "combined_field" : {
+          "type" : "text",
+          "fields" : {
+            "raw" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "description" : {
+          "type" : "text",
+          "analyzer" : "my_custom_analyzer"
+        },
+        "description_bigrams" : {
+          "type" : "text",
+          "analyzer" : "standard"
+        },
+        "description_lower" : {
+          "type" : "text",
+          "analyzer" : "standard"
+        },
+        "title" : {
+          "type" : "text",
+          "analyzer" : "my_custom_analyzer"
+        },
+        "title_bigrams" : {
+          "type" : "text",
+          "analyzer" : "standard"
+        },
+        "title_lower" : {
+          "type" : "text",
+          "analyzer" : "standard"
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "routing" : {
+          "allocation" : {
+            "include" : {
+              "_tier_preference" : "data_content"
+            }
+          }
+        },
+        "number_of_shards" : "3",
+        "provided_name" : "exams",
+        "creation_date" : "1727748133196",
+        "analysis" : {
+          "filter" : {
+            "my_stop" : {
+              "type" : "stop",
+              "stopwords" : [
+                "the",
+                "is",
+                "and",
+                "của",
+                "và",
+                "là"
+              ]
+            }
+          },
+          "analyzer" : {
+            "my_custom_analyzer" : {
+              "filter" : [
+                "lowercase",
+                "asciifolding",
+                "my_stop"
+              ],
+              "type" : "custom",
+              "tokenizer" : "standard"
+            },
+            "scientific_analyzer" : {
+              "filter" : [
+                "lowercase"
+              ],
+              "type" : "custom",
+              "tokenizer" : "standard"
+            }
+          }
+        },
+        "number_of_replicas" : "1",
+        "uuid" : "2KKkbn4CTDiKoFJ8HOtqWg",
+        "version" : {
+          "created" : "8512000"
+        }
+      }
+    }
+  }
+}

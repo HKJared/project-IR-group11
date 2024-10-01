@@ -31,6 +31,7 @@ $(document).ready(function() {
 });
 
 function showExams(exams) {
+    console.log(exams);
     $('.search_response__container').empty();
 
     if(!exams.length) {
@@ -55,7 +56,7 @@ function showExams(exams) {
 
 function createPaginationContainer(total_page) {
     $('.pagination__actions').empty();
-    console.log($('.pagination__actions'))
+    
     for (let i = 1; i < total_page + 1; i++) {
         $('.pagination__actions').append(`<button id="page_${ i }" class="pagination_item center">${ i }</button>`)
     }

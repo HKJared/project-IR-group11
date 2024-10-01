@@ -5,6 +5,37 @@ const path = require('path');
 const dataPath = path.resolve(__dirname, '../seeds/nhom11_data.json');
 const data = fs.readFileSync(dataPath, 'utf-8');
 
+const removeAccents = (str) => {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+};
+
+const toLowerCase = (str) => {
+    return str.toLowerCase();
+};
+
+const generateBigrams = (str) => {
+    const tokens = str.split(/\s+/);
+    const bigrams = [];
+    for (let i = 0; i < tokens.length - 1; i++) {
+        bigrams.push(tokens[i] + ' ' + tokens[i + 1]);
+    }
+    return bigrams.join(' ');
+};
+
+const processDocument = (doc) => {
+    const combined = `${doc.title} ${doc.description}`;
+    return {
+        ...doc,
+        title_lower: toLowerCase(doc.title),
+        title_no_accents: removeAccents(doc.title),
+        title_bigrams: generateBigrams(doc.title),
+        description_lower: toLowerCase(doc.description),
+        description_no_accents: removeAccents(doc.description),
+        description_bigrams: generateBigrams(doc.description),
+        combined_field: combined, // Lưu trường kết hợp
+    };
+};
+
 // Kết nối Elasticsearch
 const esClient = new Client({
     node: 'http://localhost:9200',
@@ -30,21 +61,57 @@ const createExamsIndex = async () => {
             console.log(`Index "${indexName}" does not exist.`);
         }
 
-        // Tạo mới index
+        // Tạo mới index với settings
         const createResponse = await esClient.indices.create({
             index: indexName,
             body: {
+                settings: {
+                    index: {
+                        number_of_shards: 3, // Số lượng phân mảnh
+                        number_of_replicas: 1, // Số lượng bản sao
+                    },
+                    analysis: {
+                        filter: {
+                            my_stop: {
+                                type: "stop",
+                                stopwords: ["the", "is", "and", "của", "và", "là"] // Danh sách từ dừng
+                            }
+                        },
+                        analyzer: {
+                            my_custom_analyzer: { // Custom analyzer
+                                type: "custom",
+                                tokenizer: "standard",
+                                filter: ["lowercase", "asciifolding", "my_stop"], // Thêm filter my_stop
+                            },
+                            scientific_analyzer: {
+                                type: "custom",
+                                tokenizer: "standard",
+                                filter: ["lowercase"], // Analyzer khác có thể không sử dụng stop words
+                            }
+                        },
+                    },
+                },
                 mappings: {
                     properties: {
-                        title: { type: 'text' },
-                        description: { type: 'text' },
-                        code: { type: 'text' },
+                        title: { type: 'text', analyzer: 'my_custom_analyzer' },
+                        description: { type: 'text', analyzer: 'my_custom_analyzer' },
+                        code: { type: 'keyword' },
+                        title_lower: { type: 'text', analyzer: 'standard' },
+                        title_bigrams: { type: 'text', analyzer: 'standard' },
+                        description_lower: { type: 'text', analyzer: 'standard' },
+                        description_bigrams: { type: 'text', analyzer: 'standard' },
+                        combined_field: { // Trường kết hợp
+                            type: 'text',
+                            fields: {
+                                raw: { type: 'keyword' },
+                            },
+                        },
                     },
                 },
             },
         });
 
-        console.log(`Index "${indexName}" created.`, createResponse);
+        console.log(`Index "${indexName}" created with settings.`, createResponse);
     } catch (error) {
         console.error(`Error creating index: ${error}`);
     }
@@ -56,10 +123,13 @@ const indexData = async () => {
         // Đọc dữ liệu từ tệp JSON
         const parsedData = JSON.parse(data);
 
+        // Xử lý từng tài liệu trong dữ liệu
+        const processedData = parsedData.map(doc => processDocument(doc));
+
         // Chuẩn bị body cho bulk API
-        const body = parsedData.flatMap(doc => [
+        const body = processedData.flatMap(doc => [
             { index: { _index: 'exams' } }, // Metadata
-            doc // Dữ liệu cần nạp
+            doc // Dữ liệu đã qua xử lý cần nạp
         ]);
 
         // Gọi API bulk của Elasticsearch để nạp dữ liệu
@@ -84,7 +154,7 @@ const indexData = async () => {
                 console.log('Data indexed successfully!');
             }
         } else {
-            console.error('Bulk response is undefined or invalid:', bulkResponse);
+            // console.error('Bulk response is undefined or invalid:', bulkResponse);
         }
     } catch (error) {
         console.error(`Error indexing data: ${error}`);
@@ -93,9 +163,14 @@ const indexData = async () => {
 
 // Hàm khởi động Elasticsearch và nạp dữ liệu
 const initializeElastic = async () => {
+    console.log('Starting Elasticsearch initialization...');
+
     await createExamsIndex();
     await indexData();
+
+    console.log('Elasticsearch initialization completed.');
 };
+
 
 module.exports = {
     esClient,
