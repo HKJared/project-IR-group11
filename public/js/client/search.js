@@ -2,10 +2,21 @@ var items_per_page = 20;
 var keyword = '';
 var page = 1;
 
-
+// set view
 $(document).ready(function() {
+    const searchKey = getUrlParams();
+
+    keyword = searchKey.keyword || '';
+    page = searchKey.page || 1;
+
+    $('#search_text').val(keyword);
+
     search();
 
+});
+
+// hàm xử lí sự kiện 
+$(document).ready(function() {
     $(document).on('submit.subEvent', '#search_form', function(event) {
         event.preventDefault();
 
@@ -13,6 +24,8 @@ $(document).ready(function() {
 
         page = 1;
         
+        updateURL();
+
         search();
     });
 
@@ -24,28 +37,54 @@ $(document).ready(function() {
 
         page = pageNum;
 
+        updateURL()
+
         search();
 
-        updateDisplayPagination($('.pagination_item').length, page)
-    })
+        updateDisplayPagination($('.pagination_item').length, page);
+    });
 });
+
+function getUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+
+    const keyword = params.get('keyword') || '';  // Lấy giá trị của 'keyword'
+    const page = parseInt(params.get('page'), 10) || 1;  // Lấy giá trị của 'page', nếu không có thì mặc định là 1
+
+    return { keyword, page };
+}
+
+function highlightKeyword(text, keyword) {
+    if (!keyword) return text;
+
+    // Tách keyword thành các từ riêng lẻ bằng khoảng trắng
+    const keywords = keyword.split(/\s+/);
+
+    // Tạo một biểu thức chính quy để tìm và highlight tất cả các từ khóa
+    const regex = new RegExp(`(${keywords.join('|')})`, 'gi');
+
+    // Thay thế và highlight các từ tìm thấy
+    return text.replace(regex, '<strong style="color: #F2F2F2;">$1</strong>');
+}
 
 function showExams(exams) {
     console.log(exams);
     $('.search_response__container').empty();
 
-    if(!exams.length) {
-        return
+    if (!exams.length) {
+        return;
     }
 
     exams.forEach(exam => {
+        const highlightedDescription = highlightKeyword(exam.description, keyword); // Chỉ highlight từ khóa trong mô tả
+
         $('.search_response__container').append(`
             <div class="exam_item col gap-8">
-                <a href="${ exam.html_url }" class="title">
-                    <span>${ exam.title }</span>
+                <a href="${exam.html_url}" class="title">
+                    <span>${exam.title}</span> <!-- Tiêu đề không được highlight -->
                 </a>
                 <div class="description">
-                    <span>${ exam.description }</span>
+                    <span>${highlightedDescription}</span> <!-- Chỉ mô tả được highlight -->
                 </div>
             </div>
         `);
@@ -58,7 +97,7 @@ function createPaginationContainer(total_page) {
     $('.pagination__actions').empty();
     
     for (let i = 1; i < total_page + 1; i++) {
-        $('.pagination__actions').append(`<button id="page_${ i }" class="pagination_item center">${ i }</button>`)
+        $('.pagination__actions').append(`<button id="page_${ i }" class="pagination_item center">${ i }</button>`);
     }
 
     $(`#page_${ page }`).addClass('active');
@@ -67,37 +106,49 @@ function createPaginationContainer(total_page) {
 }
 
 function updateDisplayPagination(total_page, current_page) {
-    // Tìm tất cả các nút phân trang hiện có
     const $paginationItems = $('.pagination_item');
 
-    // Lặp qua từng nút và ẩn hoặc hiện chúng dựa trên current_page
     $paginationItems.each(function () {
         const pageNum = parseInt($(this).text(), 10);
 
-        // Logic hiển thị tối đa 7 nút phân trang
         let showButton = false;
 
-        // Nếu tổng số trang nhỏ hơn hoặc bằng 7, hiển thị tất cả
         if (total_page <= 7) {
             showButton = true;
         } else {
-            // Nếu nút active ở giữa (>= 4 và <= total_page - 3)
             if (current_page >= 4 && current_page <= total_page - 3) {
                 showButton = pageNum >= current_page - 3 && pageNum <= current_page + 3;
             } else if (current_page < 4) {
-                // Nếu nút active gần đầu
-                showButton = pageNum <= 7; // Hiển thị 7 nút đầu
+                showButton = pageNum <= 7;
             } else {
-                // Nếu nút active gần cuối
-                showButton = pageNum > total_page - 7; // Hiển thị 7 nút cuối
+                showButton = pageNum > total_page - 7;
             }
         }
 
-        // Ẩn hoặc hiện nút dựa vào showButton
         $(this).toggle(showButton);
     });
 }
 
+function updateURL() {
+    const url = new URL(window.location.href);
+
+    // Xóa tham số `keyword` và `page` khỏi URL trước khi thêm chúng lại
+    url.searchParams.delete('keyword');
+    url.searchParams.delete('page');
+
+    // Chỉ thêm keyword vào URL nếu keyword không phải là chuỗi rỗng
+    if (keyword !== '') {
+        url.searchParams.set('keyword', keyword);
+    }
+
+    // Chỉ thêm page vào URL nếu page khác 1
+    if (page !== 1) {
+        url.searchParams.set('page', page);
+    }
+
+    // Sử dụng pushState để thay đổi URL mà không tải lại trang
+    history.pushState({}, '', url);
+}
 
 
 async function search() {
@@ -110,7 +161,6 @@ async function search() {
     } 
 }
 
-// hàm gọi api
 async function getExams() {
     try {
         const response = await fetch(`/api/user/search?items_per_page=${ items_per_page }&keyword=${ keyword }&page=${ page }`, {

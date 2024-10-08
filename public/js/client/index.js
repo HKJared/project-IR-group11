@@ -58,8 +58,8 @@ function updateViewBasedOnPath(href) {
     window.history.pushState({}, '', newUrl.toString());
 
     // Gọi hàm xử lý giao diện với URL đầy đủ (bao gồm pathname, search, hash)
-    if (newUrl.pathname == '/store/' || newUrl.pathname == '/store') {
-        getElementByHref('/store/home')
+    if (newUrl.pathname == '/' || newUrl.pathname == '') {
+        getElementByHref('/search')
     } else {
         getElementByHref(newUrl.pathname + newUrl.search + newUrl.hash);
     }
@@ -167,7 +167,7 @@ function refreshToken() {
 
 function getElementByHref(href) {
     if (href == '/' || href == '') {
-        href = '/home';
+        href = '/search';
     }
     
     fetch(`/api/user/element${href}`, {

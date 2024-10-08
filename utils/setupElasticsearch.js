@@ -74,7 +74,7 @@ const createExamsIndex = async () => {
                         filter: {
                             my_stop: {
                                 type: "stop",
-                                stopwords: ["the", "is", "and", "của", "và", "là"] // Danh sách từ dừng
+                                stopwords: ["hãy", "để", "các", "từ", "tới", "có", "hoặc", "không", "nếu", "cho", "người"] // Danh sách từ dừng
                             }
                         },
                         analyzer: {

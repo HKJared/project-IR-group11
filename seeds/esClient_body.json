@@ -57,12 +57,17 @@
             "my_stop" : {
               "type" : "stop",
               "stopwords" : [
-                "the",
-                "is",
-                "and",
-                "của",
-                "và",
-                "là"
+                "hãy",
+                "để",
+                "các",
+                "từ",
+                "tới",
+                "có",
+                "hoặc",
+                "không",
+                "nếu",
+                "cho",
+                "người"
               ]
             }
           },
