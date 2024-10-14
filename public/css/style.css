@@ -10,13 +10,33 @@
     --color-grey-400: #dbd8db;
     --color-grey-500: #bfbfbf;
     --color-grey-600: #908c95;
+    --color-text: var(--color-primary-white);
+    --color-extra-text: #bdc1c6;
+    --color-bg: var(--color-secondary-black);
+    --color-header: var(--color-primary-black);
+    --color-btn-icon: #fff;
+}
+
+[data-theme="light"] {
+    --color-primary-blue: #024fb4;
+    --color-grey-100: #25282c;
+    --color-grey-200: #1d2025;
+    --color-grey-300: #34373d;
+    --color-grey-400: #5a5d63;
+    --color-grey-500: #80848a;
+    --color-grey-600: #a5a9af;
+    --color-text: var(--color-primary-black);
+    --color-extra-text: #383838;
+    --color-bg: var(--color-secondary-white);
+    --color-header: var(--color-primary-white);
+    --color-btn-icon: #ffde59;
 }
 
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--color-secondary-black);
+    background: var(--color-bg);
     font-family: 'Inter', sans-serif;
 }
 
@@ -110,4 +130,8 @@ a, button, select {
     cursor: pointer;
     text-decoration: none;
     color: var(--color-primary-white);
+}
+
+.highlight-text {
+    color: var(--color-text);
 }

@@ -54,17 +54,51 @@ function getUrlParams() {
     return { keyword, page };
 }
 
+// Hàm để loại bỏ dấu tiếng Việt
+function removeDiacritics(str) {
+    const diacriticsMap = {
+        'a': 'áàảãạâấầẩẫậăắằẳẵặ',
+        'e': 'éèẻẽẹêếềểễệ',
+        'i': 'íìỉĩị',
+        'o': 'óòỏõọôốồổỗộơớờởỡợ',
+        'u': 'úùủũụưứừửữự',
+        'y': 'ýỳỷỹỵ',
+        'd': 'đ'
+    };
+
+    return Object.keys(diacriticsMap).reduce((acc, letter) => {
+        const regex = new RegExp(`[${diacriticsMap[letter]}]`, 'g');
+        return acc.replace(regex, letter);
+    }, str);
+}
+
+// Hàm highlight từ khóa
 function highlightKeyword(text, keyword) {
     if (!keyword) return text;
 
-    // Tách keyword thành các từ riêng lẻ bằng khoảng trắng
-    const keywords = keyword.split(/\s+/);
+    // Chuyển đổi từ khóa thành chữ thường và bỏ dấu
+    const normalizedKeywords = keyword.split(/\s+/).map(kw => removeDiacritics(kw.toLowerCase()));
 
-    // Tạo một biểu thức chính quy để tìm và highlight tất cả các từ khóa
-    const regex = new RegExp(`(${keywords.join('|')})`, 'gi');
+    // Khởi tạo chuỗi kết quả
+    let highlightedText = '';
 
-    // Thay thế và highlight các từ tìm thấy
-    return text.replace(regex, '<strong style="color: #F2F2F2;">$1</strong>');
+    // Chia văn bản thành mảng các từ
+    const words = text.split(/\s+/);
+
+    // Duyệt qua từng từ
+    for (const word of words) {
+        const normalizedWord = removeDiacritics(word.toLowerCase());
+        // Kiểm tra nếu từ đã normalize có trong mảng các từ khóa và
+        // đảm bảo nó là một từ độc lập bằng cách kiểm tra toàn bộ từ
+        if (normalizedKeywords.includes(normalizedWord)) {
+            highlightedText += `<strong class="highlight-text">${word}</strong> `;
+        } else {
+            highlightedText += `${word} `;
+        }
+    }
+
+    // Trả về chuỗi kết quả đã được xử lý
+    return highlightedText.trim(); // Loại bỏ khoảng trắng thừa ở cuối
 }
 
 function showExams(exams) {
@@ -80,7 +114,7 @@ function showExams(exams) {
 
         $('.search_response__container').append(`
             <div class="exam_item col gap-8">
-                <a href="${exam.html_url}" class="title">
+                <a href="/exam?title=${exam.title}&id=${exam.id}" class="title">
                     <span>${exam.title}</span> <!-- Tiêu đề không được highlight -->
                 </a>
                 <div class="description">

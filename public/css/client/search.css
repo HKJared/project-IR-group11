@@ -23,7 +23,7 @@
     -webkit-line-clamp: 2; 
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #bdc1c6;
+    color: var(--color-extra-text);
 }
 
 .pagination__container {
@@ -50,5 +50,5 @@
 
 .pagination__container .pagination_item.active, .pagination__container .pagination_item:hover {
     background-color: var(--color-grey-500);
-    color: var(--color-secondary-black);
+    color: var(--color-text);
 }

@@ -74,7 +74,46 @@ class examController {
             console.error(err);
             res.status(500).send(err);
         }
-    }     
+    }    
+    
+    static async getExamById(req, res) {
+        try {
+            const id = req.query.id;
+    
+            if (!id) {
+                return res.status(400).json({ message: 'Không nhận được ID.' });
+            }
+    
+            // Thực hiện tìm kiếm bằng ID trong Elasticsearch
+            const response = await esClient.search({
+                index: 'exams',
+                body: {
+                    query: {
+                        term: {
+                            _id: id  // Tìm kiếm chính xác bằng ID
+                        }
+                    }
+                }
+            });
+    
+            if (response.hits.total.value === 0) {
+                return res.status(404).json({ message: 'Không tìm thấy tài liệu với ID này.' });
+            }
+    
+            // Lấy dữ liệu từ kết quả tìm kiếm
+            const exam = response.hits.hits[0]._source;
+            exam.id = id;
+    
+            // Trả về kết quả
+            res.status(200).json({
+                exam: exam
+            });
+    
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: 'Có lỗi xảy ra.' });
+        }
+    }
 }
 
 

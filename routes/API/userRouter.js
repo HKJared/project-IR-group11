@@ -4,6 +4,8 @@ const ElementController = require('../../controllers/API/elementController');
 const userRouter = express.Router();
 
 userRouter.get('/search', examController.search);
+userRouter.get('/exam', examController.getExamById);
+
 userRouter.get('/element/:partial', ElementController.getUserMainElement);
 
 
