@@ -21,10 +21,7 @@ $(document).ready(async function() {
     const id = params.get('id');
 
     const response = await getExamById(id);
-
-    if (response && response.exam) {
-        showExam(response.exam);
-    }
+    showExam(response.exam);
 })
 
 // Xử lí sự kiện
@@ -33,7 +30,14 @@ $(document).ready(function() {
 
 // Hàm xử lí giao diện
 function showExam(exam) {
+    if (!exam) {
+        $('.exam__container').empty().append(`
+            
+        `);
+    }
+
     console.log(exam);
+
     $('#title').html(exam.title);
 
     $('#description').html(exam.description);
