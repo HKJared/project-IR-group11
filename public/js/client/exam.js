@@ -1,5 +1,6 @@
+var editor;
 $(document).ready(function() {
-    const editor = CodeMirror.fromTextArea(document.getElementById('code-editor'), {
+    editor = CodeMirror.fromTextArea(document.getElementById('code-editor'), {
         lineNumbers: true,
         mode: 'text/x-c++src', // Thay đổi mode cho C++
         theme: 'dracula', // Sử dụng theme Dracula
@@ -8,6 +9,10 @@ $(document).ready(function() {
         tabSize: 2, // Kích thước tab
         indentUnit: 2, // Đơn vị thụt lề
     });
+
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+
+    editor.setOption("theme", savedTheme == 'dark' ? "dracula" : "default");
 });
 
 //  Set view
@@ -29,6 +34,13 @@ $(document).ready(function() {
 // Hàm xử lí giao diện
 function showExam(exam) {
     console.log(exam);
+    $('#title').html(exam.title);
+
+    $('#description').html(exam.description);
+
+    if (exam.code) {
+        editor.setValue(exam.code); // Cập nhật nội dung của editor với code từ API
+    }
 }
 
 // hàm gọi api

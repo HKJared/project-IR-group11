@@ -13,7 +13,7 @@ $(document).ready(function() {
 // Xử lí sự kiện
 $(document).ready(function() {
     // Lắng nghe sự kiện click để chuyển đổi theme
-    $('#toggle-theme').on('click', function() {
+    $(document).on('click', '#toggle-theme', function() {
         let theme = $('html').attr('data-theme');
         const $icon = $(this).find('.btn__icon');
 
@@ -25,12 +25,22 @@ $(document).ready(function() {
             $('body').addClass('darkmode');
             $('.logo img').attr('src', '/images/logo.png');
             $icon.removeClass('fa-sun').addClass('fa-moon');
+
+            // Thay đổi theme cho CodeMirror
+            if (editor) {
+                editor.setOption("theme", "dracula");
+            }
         } else {
             $('html').attr('data-theme', 'light');
             localStorage.setItem('theme', 'light');
             $('body').removeClass('darkmode');
             $('.logo img').attr('src', '/images/logo-light.png');
             $icon.removeClass('fa-moon').addClass('fa-sun');
+
+            // Thay đổi theme cho CodeMirror
+            if (editor) {
+                editor.setOption("theme", "default");
+            }
         }
 
         setTimeout(() => {
