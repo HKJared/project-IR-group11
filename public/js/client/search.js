@@ -1,4 +1,4 @@
-var items_per_page = 20;
+var items_per_page = 10;
 var keyword = '';
 var page = 1;
 
@@ -110,13 +110,28 @@ function showExams(exams) {
     }
 
     exams.forEach(exam => {
-        const highlightedDescription = highlightKeyword(exam.description, keyword); // Chỉ highlight từ khóa trong mô tả
+        const highlightedDescription = highlightKeyword(exam.description || exam.meaning || exam.lyrics || exam.Content || exam.noidung, keyword); // Chỉ highlight từ khóa trong mô tả
+
+        let url = '';
+        let spa_action = '';
+        let blank = ''
+
+        if (exam.link || exam.url) {
+            url = exam.link || exam.url;
+            blank = '_blank'
+        } else {
+            url = `/exam?title=${exam.title} &id=${exam.id}`;
+            spa_action = 'spa-action';
+        }
 
         $('.search_response__container').append(`
             <div class="exam_item col gap-8">
-                <a href="/exam?title=${exam.title}&id=${exam.id}" class="title">
-                    <span>${exam.title}</span> <!-- Tiêu đề không được highlight -->
+                <a href="${ url }" class="title ${ spa_action }" target="${ blank }">
+                    <span>${exam.title || exam.tendieu || exam.scientific_name || exam.content || exam.song || exam.Title}</span> <!-- Tiêu đề không được highlight -->
                 </a>
+                <div class="index-name">
+                    <span>${ exam.index_name }</span>
+                </div>
                 <div class="description">
                     <span>${highlightedDescription}</span> <!-- Chỉ mô tả được highlight -->
                 </div>
