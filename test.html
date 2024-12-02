@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #ffffff;
+    }
+
+    .shape {
+        width: 142px;
+        height: 42px;
+        background-color: black;
+        clip-path: polygon(
+            10% 0, 30% 15%, 70% 15%, 90% 0,   /* Đỉnh trên với bo góc ngược */
+            100% 10%, 85% 50%, 100% 90%,       /* Cạnh phải */
+            90% 100%, 70% 85%, 30% 85%, 10% 100%, /* Đáy với bo góc ngược */
+            0 90%, 15% 50%, 0 10%             /* Cạnh trái */
+        );
+    }
+
+</style>
+<body>
+    <div class="shape">
+        
+    </div>
+</body>
+</html>

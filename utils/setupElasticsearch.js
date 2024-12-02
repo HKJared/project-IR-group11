@@ -83,23 +83,23 @@ const createExamsIndex = async () => {
                                 tokenizer: "standard",
                                 filter: ["lowercase", "asciifolding", "my_stop"], // Thêm filter my_stop
                             },
-                            scientific_analyzer: {
-                                type: "custom",
-                                tokenizer: "standard",
-                                filter: ["lowercase"], // Analyzer khác có thể không sử dụng stop words
-                            }
+                            // scientific_analyzer: {
+                            //     type: "custom",
+                            //     tokenizer: "standard",
+                            //     filter: ["lowercase"], // Analyzer khác có thể không sử dụng stop words
+                            // }
                         },
                     },
                 },
                 mappings: {
                     properties: {
-                        title: { type: 'text', analyzer: 'my_custom_analyzer' },
                         description: { type: 'text', analyzer: 'my_custom_analyzer' },
+                        title: { type: 'text', analyzer: 'my_custom_analyzer' },
                         code: { type: 'keyword' },
-                        title_lower: { type: 'text', analyzer: 'standard' },
-                        title_bigrams: { type: 'text', analyzer: 'standard' },
-                        description_lower: { type: 'text', analyzer: 'standard' },
-                        description_bigrams: { type: 'text', analyzer: 'standard' },
+                        // title_lower: { type: 'text', analyzer: 'standard' },
+                        // title_bigrams: { type: 'text', analyzer: 'standard' },
+                        // description_lower: { type: 'text', analyzer: 'standard' },
+                        // description_bigrams: { type: 'text', analyzer: 'standard' },
                         combined_field: { // Trường kết hợp
                             type: 'text',
                             fields: {

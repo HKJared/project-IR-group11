@@ -13,6 +13,8 @@ class examController {
             const pageNumber = parseInt(page, 10);
             const itemsPerPage = parseInt(items_per_page, 10);
     
+            // tìm trong table keywords xem có k.val = keyword không, nếu có thì count total_search, nếu không thì tạo mới với total_search = 1
+
             // Tính toán vị trí bắt đầu
             const from = (pageNumber - 1) * itemsPerPage;
     
@@ -32,13 +34,13 @@ class examController {
                             { match: { title: keyword } },
                             { match: { description: keyword } },
                             { match: { code: keyword } },
-                            { match: { 'title_no_accent': keyword } },
-                            { match: { 'description_no_accent': keyword } },
-                            { match: { 'code_no_accent': keyword } },
-                            { match: { 'title_bigram': keyword } },
-                            { match: { 'description_bigram': keyword } },
-                            { match: { 'code_bigram': keyword } },
-                            { match: { combined_field: keyword } }, // Truy vấn vào trường kết hợp
+                            // { match: { 'title_no_accent': keyword } },
+                            // { match: { 'description_no_accent': keyword } },
+                            // { match: { 'code_no_accent': keyword } },
+                            // { match: { 'title_bigram': keyword } },
+                            // { match: { 'description_bigram': keyword } },
+                            // { match: { 'code_bigram': keyword } },
+                            // { match: { combined_field: keyword } }, // Truy vấn vào trường kết hợp
                         ]
                     }
                 };
@@ -50,25 +52,29 @@ class examController {
                 body: {
                     from, // Vị trí bắt đầu
                     size: itemsPerPage, // Số lượng kết quả trên mỗi trang
-                    query: query // Sử dụng truy vấn đã định nghĩa
+                    query: query, // Sử dụng truy vấn đã định nghĩa
+                    explain: true
                 }
             });
     
+            // Lấy dữ liệu từ kết quả tìm kiếm, bao gồm cả _score
             const exams = response.hits.hits.map(hit => ({
                 id: hit._id,
                 ...hit._source,
+                score: hit._score,
+                explanation_details: hit._explanation.details,
             }));
     
             // Tính toán tổng số trang
             const totalItems = response.hits.total.value; // Tổng số mục
             const totalPages = Math.ceil(totalItems / itemsPerPage); // Tổng số trang
     
-            // Trả về kết quả cùng với thông tin phân trang
+            // Trả về kết quả cùng với thông tin phân trang và điểm xếp hạng
             res.status(200).json({
                 total_page: totalPages,
                 page: pageNumber,
                 items_per_page: itemsPerPage,
-                exams,
+                exams, // Kết quả đã bao gồm score
             });
         } catch (err) {
             console.error(err);
