@@ -116,8 +116,8 @@ function showExams(exams) {
         let spa_action = '';
         let blank = ''
 
-        if (exam.link || exam.url) {
-            url = exam.link || exam.url;
+        if (exam.link || exam.url || exam.Link) {
+            url = exam.link || exam.url || exam.Link;
             blank = '_blank'
         } else {
             url = `/exam?title=${exam.title} &id=${exam.id}`;
@@ -212,7 +212,19 @@ async function search() {
 
 async function getExams() {
     try {
-        const response = await fetch(`/api/user/search?items_per_page=${ items_per_page }&keyword=${ keyword }&page=${ page }`, {
+        // Lấy danh sách các `value` của các checkbox được checked
+        const indexNames = Array.from(document.querySelectorAll('.index-name__container input[type="checkbox"]:checked'))
+            .map(input => input.value);
+        console.log(indexNames)
+        // Tạo URL query với mảng index_names
+        const queryParams = new URLSearchParams({
+            items_per_page,
+            keyword,
+            page,
+            index_names: JSON.stringify(indexNames) // Chuyển mảng thành chuỗi JSON
+        });
+
+        const response = await fetch(`/api/user/search?${queryParams.toString()}`, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",
@@ -225,7 +237,7 @@ async function getExams() {
             showNotification(result.message);
             throw new Error('Network response was not ok');
         }
-        
+
         return result; 
     } catch (error) {
         console.error('There was a problem with the fetch operation:', error);

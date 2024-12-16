@@ -1,0 +1,39 @@
+.index-name__container {
+    position: fixed;
+    top: 92px;
+    left: 16px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: .8px solid #b7b7b7;
+    width: calc((100vw - 984px) / 2 + 40px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.index-name__container input {
+    display: none;
+}
+
+.index-name__container label {
+    padding: 4px 12px;
+    background-color: #fff;
+    color: #0d7e0d;
+    cursor: pointer;
+    border-radius: 14px;
+    border: .8px solid #e5e5e5;
+    user-select: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.index-name__container label:hover {
+    box-shadow: 0 0 14px rgba(0, 0, 0, .12);
+}
+
+.index-name__container input:checked + label {
+    background-color: #0d7e0d; /* Màu nền khi checked */
+    color: #fff;             /* Màu chữ khi checked */
+    border-color: #0d7e0d;   /* Màu viền khi checked */
+    box-shadow: 0 0 14px rgba(0, 0, 0, .12);
+}

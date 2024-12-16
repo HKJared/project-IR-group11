@@ -5,6 +5,7 @@ const userRouter = express.Router();
 
 userRouter.get('/search', examController.search);
 userRouter.get('/exam', examController.getExamById);
+userRouter.get('/index-names', examController.getIndexNames);
 
 userRouter.get('/element/:partial', ElementController.getUserMainElement);
 

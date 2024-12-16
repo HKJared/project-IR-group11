@@ -8,6 +8,7 @@ $(document).ready(function() {
         matchBrackets: true, // Khớp dấu ngoặc
         tabSize: 2, // Kích thước tab
         indentUnit: 2, // Đơn vị thụt lề
+        lineWrapping: true,
     });
 
     const savedTheme = localStorage.getItem('theme') || 'dark';
@@ -38,12 +39,14 @@ function showExam(exam) {
 
     console.log(exam);
 
-    $('#title').html(exam.title);
+    $('#title').html(exam.title || exam.tendieu || exam.scientific_name || exam.content || exam.song || exam.Title);
 
-    $('#description').html(exam.description);
+    $('#description').html(exam.description || exam.meaning || exam.lyrics || exam.Content || exam.noidung);
 
     if (exam.code) {
         editor.setValue(exam.code); // Cập nhật nội dung của editor với code từ API
+    } else {
+        editor.setValue(JSON.stringify(exam, null, 2));
     }
 }
 

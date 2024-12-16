@@ -21,3 +21,7 @@
     border-radius: 6px;
     box-shadow: var(--color-shadow);
 }
+
+.index-name__container {
+    display: none;
+}

@@ -6,86 +6,13 @@ const { initializeElastic, esClient } = require('../../utils/setupElasticsearchM
 // const { initializeElastic, esClient } = require('../../utils/setupElasticsearchEL');
 
 class examController {
-    // static async search(req, res) {
-    //     try {
-    //         const { keyword = '', page = 1, items_per_page = 10 } = req.query;
-    
-    //         // Chuyển đổi tham số `page` và `items_per_page` thành số
-    //         const pageNumber = parseInt(page, 10);
-    //         const itemsPerPage = parseInt(items_per_page, 10);
-    
-    //         // tìm trong table keywords xem có k.val = keyword không, nếu có thì count total_search, nếu không thì tạo mới với total_search = 1
 
-    //         // Tính toán vị trí bắt đầu
-    //         const from = (pageNumber - 1) * itemsPerPage;
-    
-    //         // Định nghĩa truy vấn
-    //         let query;
-    
-    //         if (keyword.trim() === '') {
-    //             // Trả về tất cả tài liệu khi không có từ khóa
-    //             query = {
-    //                 match_all: {}
-    //             };
-    //         } else {
-    //             // Thực hiện tìm kiếm với keyword đã chuẩn hóa
-    //             query = {
-    //                 bool: {
-    //                     should: [                            
-    //                         { match: { title: keyword } },
-    //                         { match: { description: keyword } },
-    //                         { match: { code: keyword } },
-    //                         // { match: { 'title_no_accent': keyword } },
-    //                         // { match: { 'description_no_accent': keyword } },
-    //                         // { match: { 'code_no_accent': keyword } },
-    //                         // { match: { 'title_bigram': keyword } },
-    //                         // { match: { 'description_bigram': keyword } },
-    //                         // { match: { 'code_bigram': keyword } },
-    //                         // { match: { combined_field: keyword } }, // Truy vấn vào trường kết hợp
-    //                     ]
-    //                 }
-    //             };
-    //         }
-    
-    //         // Thực hiện tìm kiếm
-    //         const response = await esClient.search({
-    //             index: 'exams',
-    //             body: {
-    //                 from, // Vị trí bắt đầu
-    //                 size: itemsPerPage, // Số lượng kết quả trên mỗi trang
-    //                 query: query, // Sử dụng truy vấn đã định nghĩa
-    //                 explain: true
-    //             }
-    //         });
-    
-    //         // Lấy dữ liệu từ kết quả tìm kiếm, bao gồm cả _score
-    //         const exams = response.hits.hits.map(hit => ({
-    //             id: hit._id,
-    //             ...hit._source,
-    //             score: hit._score,
-    //             explanation_details: hit._explanation.details,
-    //         }));
-    
-    //         // Tính toán tổng số trang
-    //         const totalItems = response.hits.total.value; // Tổng số mục
-    //         const totalPages = Math.ceil(totalItems / itemsPerPage); // Tổng số trang
-    
-    //         // Trả về kết quả cùng với thông tin phân trang và điểm xếp hạng
-    //         res.status(200).json({
-    //             total_page: totalPages,
-    //             page: pageNumber,
-    //             items_per_page: itemsPerPage,
-    //             exams, // Kết quả đã bao gồm score
-    //         });
-    //     } catch (err) {
-    //         console.error(err);
-    //         res.status(500).send(err);
-    //     }
-    // }    
-    
-    static async search(req, res) { // TODO: multi search
+    static async search(req, res) {
         try {
-            const { keyword = '', page = 1, items_per_page = 10 } = req.query;
+            const { keyword = '', page = 1, items_per_page = 10, index_names = '[]' } = req.query;
+    
+            // Chuyển đổi `index_names` thành mảng (do chuỗi JSON gửi từ client)
+            const indices = JSON.parse(index_names);
     
             // Chuyển đổi tham số `page` và `items_per_page` thành số
             const pageNumber = parseInt(page, 10);
@@ -103,19 +30,71 @@ class examController {
                     match_all: {}
                 };
             } else {
+                const removeAccents = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                const keywordNoAccent = removeAccents(keyword);
                 // Truy vấn tìm kiếm trên tất cả các trường
+                // query = {
+                //     multi_match: {
+                //         query: keyword,
+                //         fields: ['*'], // Tìm kiếm trên tất cả các trường trong index
+                        
+                //     }
+                // };
                 query = {
-                    multi_match: {
-                        query: keyword,
-                        fields: ['*'],  // Tìm kiếm trên tất cả các trường trong index
-                        operator: 'and' // Tất cả các từ trong từ khóa phải xuất hiện trong tài liệu
+                    bool: {
+                        should: [
+                            {
+                                dis_max: {
+                                    queries: [
+                                        {
+                                            multi_match: {
+                                                query: keyword,
+                                                type: "phrase",
+                                                fields: ["*^10"]
+                                            }
+                                        },
+                                        {
+                                            multi_match: {
+                                                query: keyword,
+                                                operator: "and",
+                                                fields: ["*^5"]
+                                            }
+                                        },
+                                        {
+                                            multi_match: {
+                                                query: keywordNoAccent,
+                                                type: "phrase",
+                                                fields: ["*^3"]
+                                            }
+                                        },
+                                        {
+                                            multi_match: {
+                                                query: keywordNoAccent,
+                                                fields: ["*^1"]
+                                            }
+                                        },
+                                        {
+                                            multi_match: {
+                                                query: keyword,
+                                                fields: ['*'], // Tìm kiếm trên tất cả các trường trong index
+                                                
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        minimum_should_match: 1
                     }
-                };
-            }            
+                }
+            }
     
-            // Thực hiện tìm kiếm trên tất cả các chỉ mục
+            // Chọn index để tìm kiếm
+            const indexToSearch = indices.length > 0 ? indices.join(',') : '*'; // Nếu không có index_names thì tìm kiếm toàn cục
+    
+            // Thực hiện tìm kiếm
             const response = await esClient.search({
-                index: '*', // Tìm kiếm trên tất cả các chỉ mục
+                index: indexToSearch, // Tìm kiếm theo chỉ mục cụ thể hoặc toàn bộ
                 body: {
                     from, // Vị trí bắt đầu
                     size: itemsPerPage, // Số lượng kết quả trên mỗi trang
@@ -148,8 +127,8 @@ class examController {
             console.error(err);
             res.status(500).send(err);
         }
-    }     
-
+    }
+    
     // static async getExamById(req, res) {
     //     try {
     //         const id = req.query.id;
@@ -228,6 +207,22 @@ class examController {
         }
     }
     
+
+    static async getIndexNames(req, res) {
+        try {
+            const response = await esClient.cat.indices({
+                format: 'json' // Trả về kết quả dưới dạng JSON
+            });
+    
+            // Lấy danh sách các index_name từ kết quả
+            const indices = response.map(index => index.index);
+
+            return res.status(200).json({ index_names: indices })
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ message: 'Có lỗi xảy ra.' });
+        }
+    }
 }
 
 

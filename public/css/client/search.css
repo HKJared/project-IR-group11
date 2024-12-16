@@ -3,6 +3,7 @@
     color: var(--color-primary-white);
     padding: 24px 12px;
     min-height: 400px;
+    transform: translateX(100px);
 }
 
 .search_response__container .title {
@@ -32,7 +33,7 @@
     line-height: 16px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; 
+    -webkit-line-clamp: 4; 
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--color-extra-text);

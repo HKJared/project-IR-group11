@@ -15,6 +15,9 @@ $(document).ready(async function() {
         }
     }
 
+    const { index_names } = await getIndexNames();
+    createListIndex(index_names);
+
     // Lấy element từ server khi vừa load lại trang
     const currentHref = window.location.href;
     updateViewBasedOnPath(currentHref);
@@ -48,6 +51,22 @@ $(document).ready(async function() {
         getElementByHref(window.location.pathname);
     });
 });
+
+function createListIndex(index_names) {
+    let listIndexHTML = '';
+    for (let i = 0; i < index_names.length; i++) {
+        listIndexHTML += `
+            <input type="checkbox" name="" id="index_${ i }" value="${ index_names[i] }">
+            <label for="index_${ i }">${ index_names[i] }</label>
+        `
+    }
+
+    $('body').append(`
+        <div class="index-name__container">
+            ${ listIndexHTML }
+        </div>
+    `);
+}
 
 // Hàm xử lý giao diện
 function updateViewBasedOnPath(href) {
@@ -200,6 +219,29 @@ async function getUserInfo() {
             headers: {
                 "Content-Type": "application/json",
                 "authentication": token
+            }
+        });
+
+        const result = await response.json();
+
+        if (!response.ok) {
+            showNotification(result.message);
+            throw new Error('Network response was not ok');
+        }
+        
+        return result; 
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+        return [];
+    }
+}
+
+async function getIndexNames() {
+    try {
+        const response = await fetch(`/api/user/index-names`, {
+            method: 'GET',
+            headers: {
+                "Content-Type": "application/json"
             }
         });
 

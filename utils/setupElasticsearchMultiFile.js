@@ -52,6 +52,32 @@ const createIndex = async (indexName, sampleData) => {
         await esClient.indices.create({
             index: indexName,
             body: {
+                settings: {
+                    index: {
+                        number_of_shards: 3, // Số lượng phân mảnh
+                        number_of_replicas: 1, // Số lượng bản sao
+                    },
+                    analysis: {
+                        filter: {
+                            my_stop: {
+                                type: "stop",
+                                stopwords: ["hãy", "để", "các", "từ", "tới", "có", "hoặc", "không", "nếu", "cho", "người", "tìm", "và", "lập", "trình"] // Danh sách từ dừng
+                            }
+                        },
+                        analyzer: {
+                            my_custom_analyzer: { // Custom analyzer
+                                type: "custom",
+                                tokenizer: "standard",
+                                filter: ["lowercase", "asciifolding", "my_stop"], // Thêm filter my_stop
+                            },
+                            // scientific_analyzer: {
+                            //     type: "custom",
+                            //     tokenizer: "standard",
+                            //     filter: ["lowercase"], // Analyzer khác có thể không sử dụng stop words
+                            // }
+                        },
+                    },
+                },
                 mappings: mapping,
             },
         });
