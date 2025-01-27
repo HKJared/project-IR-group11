@@ -110,7 +110,7 @@ function showExams(exams) {
     }
 
     exams.forEach(exam => {
-        const highlightedDescription = highlightKeyword(exam.description || exam.meaning || exam.lyrics || exam.Content || exam.noidung, keyword); // Chỉ highlight từ khóa trong mô tả
+        const highlightedDescription = highlightKeyword(exam.content ||exam.Content || '', keyword); // Chỉ highlight từ khóa trong mô tả
 
         let url = '';
         let spa_action = '';

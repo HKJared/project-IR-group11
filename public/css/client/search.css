@@ -1,5 +1,7 @@
 .search_response__container {
-    width: 960px;
+    max-width: 960px;
+    /* width: 960px; */
+    width: 100%;
     color: var(--color-primary-white);
     padding: 24px 12px;
     min-height: 400px;
@@ -33,7 +35,7 @@
     line-height: 16px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4; 
+    -webkit-line-clamp: 6; 
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--color-extra-text);
@@ -64,4 +66,10 @@
 .pagination__container .pagination_item.active, .pagination__container .pagination_item:hover {
     background-color: var(--color-grey-500);
     color: var(--color-text);
+}
+
+@media only screen and (max-width: 768px) {
+    .search_response__container .index-name_container {
+        display: none !important;
+    }
 }
